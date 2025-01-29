@@ -1,0 +1,253 @@
+/* General App Styles */
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; /* Align items at the top */
+  align-items: center;
+  min-height: 100vh;
+  position: relative;
+  z-index: 0;
+  margin-top: 85px; /* Increase this to move content further down */
+  overflow: hidden; /* Prevent horizontal scrolling */
+}
+
+/* Video Background Styles */
+.background-video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+  pointer-events: none;
+}
+
+/* Header Styles */
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000; /* Ensure it’s above other content */
+  background: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+  color: white; /* Text color */
+  padding: 1rem; /* Padding for spacing */
+}
+
+/* Main Content Styles */
+.main-content {
+  margin-top: 80px; /* Space for fixed header */
+  margin-bottom: 60px; /* Space for fixed footer */
+  padding: 0 10px; /* Add some horizontal padding if needed */
+  overflow: auto; /* Enable scrolling */
+  flex: 1;
+}
+
+/* Footer Styles */
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+  color: white; /* Text color */
+  text-align: center; /* Center the text */
+  padding: 1rem; /* Padding for spacing */
+}
+
+
+/* Typewriter Effect Styles */
+.typewriter-container {
+  display: inline-block;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.typewriter {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 28px;
+  font-weight: 900;
+  font-style: italic;
+  background: linear-gradient(45deg, #ffffff, #6be79e, #f3af51, #fbfbfb);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  text-shadow: 0 0 5px rgba(207, 81, 81, 0.8),
+               0 0 10px rgba(31, 96, 73, 0.6),
+               0 0 15px rgba(0, 0, 0, 0.4),
+               0 0 20px rgba(0, 0, 0, 0.2);
+  
+  overflow: hidden; /* Hides the text that hasn't been "typed" yet */
+  white-space: nowrap; /* Prevents the text from wrapping */
+  border-right: 0.15em solid yellow; /* Simulates the cursor */
+  animation: typing 3s steps(40, end), blink-caret 0.75s step-end infinite;
+}
+
+/* Keyframes for the typing effect */
+@keyframes typing {
+  from {
+    width: 0; /* Start with no text */
+  }
+  to {
+    width: 100%; /* Reveal the entire text */
+  }
+}
+
+/* Keyframes for the blinking caret */
+@keyframes blink-caret {
+  from, to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: yellow;
+  }
+}
+
+/* Hide the cursor after typing animation */
+.typewriter.finished {
+  border-right: none; /* Hide cursor */
+}
+
+
+/* Button Group Styles */
+.button-group {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+  z-index: 2;
+}
+
+/* Unified Button Styling */
+button,
+.btn {
+  margin: 10px;
+  padding: 10px 20px;
+  background-color: #080808;
+  color: #ffffff;
+  border: 1px solid #63c3ca;
+  border-radius: 10px;
+  font-size: 14px;
+  cursor: pointer;
+  box-sizing: border-box;
+  transition: transform 0.2s, background-color 0.3s, text-shadow 0.2s, font-weight 0.2s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Button Hover Effect */
+button:hover,
+.btn:hover {
+  transform: scale(1.1);
+  background-color: #69bbc3;
+  color: #010101;
+  box-shadow: 0 0 25px rgba(37, 58, 58, 0.9), 0 0 30px rgba(0, 255, 255, 0.9), 0 0 35px rgba(0, 255, 255, 0.9);
+  font-weight: bold;
+}
+
+/* Upload Section Styles */
+.upload-section {
+  margin-top: 20px;
+  z-index: 2;
+  background: rgba(255, 255, 255, 0.8);
+  padding: 10px;
+  border-radius: 10px;
+}
+
+/* Table Section Styles */
+.table-section {
+  margin-top: 20px;
+  width: 60%;
+  max-width: 90%;
+  max-height: 60vh;
+  overflow-x: auto;
+  overflow-y: auto;
+  margin-left: auto;
+  margin-right: auto;
+  z-index: 2;
+  border: 1px solid #ddd;
+  background: rgba(255, 255, 255, 0.8);
+  padding: 10px;
+}
+
+/* Chatbot Icon Styles */
+.chatbot-icon {
+  position: absolute;
+  top: 20px;
+  right: 10px;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  z-index: 1;
+}
+
+/* Table Container Styles */
+.table-container {
+  overflow-x: auto;
+  overflow-y: auto;
+  max-height: 40vh;
+  margin: 20px auto;
+  max-width: 90%;
+}
+
+/* Table Styles */
+.json-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+}
+
+.json-table th,
+.json-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+  vertical-align: top;
+  white-space: nowrap;
+  max-width: 200px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.json-table th {
+  background-color: #0D6EFD;
+  color: white;
+  font-weight: bold;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
+
+.json-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.json-table tr:hover {
+  background-color: #ddd;
+}
+
+/* PDF Button Container Styles */
+.pdf-button-container {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  z-index: 2;
+}
+.back-button {
+  background-color: #4ecdc4;
+  border: none;
+  color: white;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-bottom: 20px;
+}
+
+.back-button:hover {
+  background-color: #45b7d1;
+}

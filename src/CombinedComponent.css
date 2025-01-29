@@ -1,0 +1,80 @@
+/* General Container */
+.container {
+  padding: 20px;
+  margin: 0 auto;
+  max-width: 1200px;
+  box-sizing: border-box;
+}
+
+/* Heading Styles */
+h2 {
+  font-size: 1.5em;
+  margin-top: 0;
+  color: #333;
+}
+
+h3 {
+  font-size: 1.2em;
+  margin-top: 20px;
+  color: #666;
+}
+
+h4 {
+  font-size: 1em;
+  margin-top: 10px;
+  color: #888;
+}
+
+/* Table Styles */
+.table-wrapper {
+  overflow-x: auto;
+  margin-bottom: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+  table-layout: fixed; /* Ensure the table fits within the container */
+}
+
+table th,
+table td {
+  padding: 8px; /* Reduced padding */
+  text-align: left;
+  border: 1px solid #ddd;
+  word-wrap: break-word; /* Handle long words or content */
+  word-break: break-all; /* Break long text to prevent overflow */
+}
+
+table th {
+  background-color: #f4f4f4;
+}
+
+/* Paragraph Styles */
+p {
+  margin: 0 0 10px;
+  line-height: 1.6;
+}
+
+pre {
+  background-color: #f9f9f9;
+  padding: 10px;
+  border: 1px solid #ddd;
+  overflow-x: auto;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .container {
+    padding: 10px;
+  }
+
+  table {
+    font-size: 0.9em;
+  }
+
+  h2, h3, h4 {
+    font-size: 1em;
+  }
+}

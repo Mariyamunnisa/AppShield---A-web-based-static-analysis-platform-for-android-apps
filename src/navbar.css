@@ -1,0 +1,113 @@
+/* General Navbar Styles */
+.navbar {
+  padding: 0.5rem 1rem;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  position: fixed;
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: -80px;
+  margin-top: 3px;
+}
+
+/* Navbar brand (logo) */
+.navbar-brand {
+  position: absolute;
+  left: 1rem;
+  display: flex;
+  align-items: center;
+  padding: 0;
+}
+
+.toolbar-icon {
+  height: 40px;
+  width: auto;
+  margin-left: 9rem;
+}
+
+/* Navbar links */
+.navbar-nav {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  list-style: none;
+  padding: 0;
+  margin-left: 5rem;
+}
+
+.nav-item {
+  margin-left: 2.8rem; /* Space between items */
+}
+
+.nav-link {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 0.5rem 0;
+  position: relative;
+  transition: transform 0.3s ease, color 0.3s ease, text-shadow 0.3s ease; /* Smooth transition effects */
+  display: inline-block; /* Required for scaling effect */
+}
+
+/* Hover effect for links */
+.nav-link:hover {
+  transform: scale(1.2); /* Zoom in */
+  color: #00e6e6; /* Change text color */
+  text-shadow: 0 0 8px rgba(0, 255, 255, 0.7); /* Glowing effect */
+}
+
+/* Glowing underline effect */
+.nav-link::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  width: 0;
+  height: 2px;
+  background: linear-gradient(90deg, #00e6e6, #4ecdc4);
+  transition: width 0.3s ease-in-out;
+}
+
+.nav-link:hover::after {
+  width: 100%; /* Expand underline */
+  box-shadow: 0 0 10px rgba(0, 255, 255, 0.7);
+}
+
+.active .nav-link {
+  color: #00e6e6;
+  font-weight: bold;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .navbar-nav {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .nav-item {
+    margin-left: 0;
+    margin-bottom: 0.5rem;
+  }
+}
+/* Style for the text next to the logo */
+.navbar-text {
+  margin-left: 0.8rem;
+  font-size: 18px;
+  color: #ffffff;
+  text-decoration: none !important;
+  transition: color 0.3s ease;
+}
+
+/* src/Navbar.css */
+
+/* Remove fixed positioning */
+.navbar.fixed {
+  position: static; /* Or omit if you don't need specific positioning */
+}
+.navbar-brand .navbar-text {
+  text-decoration: none !important;
+}

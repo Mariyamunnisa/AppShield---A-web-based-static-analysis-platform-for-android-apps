@@ -1,0 +1,95 @@
+.lint-analysis-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f6f8;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .title {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .input-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .path-input {
+    padding: 10px;
+    font-size: 16px;
+    width: 100%;
+    max-width: 500px;
+    border: 2px solid #1e90ff;
+    border-radius: 5px;
+    outline: none;
+    transition: border-color 0.3s ease;
+  }
+  
+  .path-input:focus {
+    border-color: #00bfff;
+  }
+  
+  .analyze-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #1e90ff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .analyze-button:hover {
+    background-color: #00bfff;
+  }
+  
+  .loading-text {
+    text-align: center;
+    color: #ff6347;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .report-container {
+    margin-top: 30px;
+    text-align: center;
+  }
+  
+  .report-title {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+  
+  .view-report-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .view-report-button:hover {
+    background-color: #218838;
+  }
+  
+  .error-text {
+    color: red;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+  }
+  

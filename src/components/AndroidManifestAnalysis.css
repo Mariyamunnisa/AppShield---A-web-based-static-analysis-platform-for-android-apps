@@ -1,0 +1,48 @@
+.container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .upload-form {
+    margin-bottom: 20px;
+  }
+  
+  .error-message {
+    color: red;
+  }
+  
+  .results {
+    margin-top: 20px;
+  }
+  
+  .analysis-results, .remediation-advice {
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .analysis-results h4, .remediation-advice h4 {
+    margin-top: 0;
+  }
+  
+  .analysis-results ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .analysis-results li {
+    margin-bottom: 10px;
+  }
+  
+  .analysis-results li ul {
+    padding-left: 20px;
+  }
+  
+  .remediation-advice pre {
+    white-space: pre-wrap; /* Allows for line breaks and white spaces */
+    background-color: #eee;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  

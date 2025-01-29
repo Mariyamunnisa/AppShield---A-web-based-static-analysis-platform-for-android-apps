@@ -1,0 +1,2390 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<issues format="6" by="lint 8.2.0 [11076708] " type="baseline" client="cli" dependencies="true" name="Lint" variant="all" version="8.2.0 [11076708] ">
+
+    <issue
+        id="OnClick"
+        message="Corresponding method handler &apos;`public void encrypt_onClick(android.view.View)`&apos; not found"
+        errorLine1="    &lt;Button android:id=&quot;@id/button&quot; android:layout_width=&quot;132.0dip&quot; android:layout_height=&quot;0.0dip&quot; android:layout_marginTop=&quot;60.0dip&quot; android:text=&quot;Encrypt&quot; android:onClick=&quot;encrypt_onClick&quot; android:layout_marginStart=&quot;139.0dip&quot; android:layout_marginEnd=&quot;140.0dip&quot; app:layout_constraintEnd_toEndOf=&quot;parent&quot; app:layout_constraintHorizontal_bias=&quot;0.0&quot; app:layout_constraintStart_toStartOf=&quot;parent&quot; app:layout_constraintTop_toBottomOf=&quot;@id/input&quot; />"
+        errorLine2="                                                                                                                                                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="res/layout/activity_main.xml"
+            line="6"
+            column="158"/>
+    </issue>
+
+    <issue
+        id="OnClick"
+        message="Corresponding method handler &apos;`public void getflag_onClick(android.view.View)`&apos; not found"
+        errorLine1="    &lt;Button android:id=&quot;@id/button2&quot; android:layout_width=&quot;132.0dip&quot; android:layout_height=&quot;0.0dip&quot; android:layout_marginTop=&quot;128.0dip&quot; android:text=&quot;Get Flag! (Encoded}&quot; android:onClick=&quot;getflag_onClick&quot; android:layout_marginStart=&quot;139.0dip&quot; android:layout_marginEnd=&quot;140.0dip&quot; app:layout_constraintEnd_toEndOf=&quot;parent&quot; app:layout_constraintHorizontal_bias=&quot;0.0&quot; app:layout_constraintStart_toStartOf=&quot;parent&quot; app:layout_constraintTop_toBottomOf=&quot;@id/input&quot; />"
+        errorLine2="                                                                                                                                                                           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="res/layout/activity_main.xml"
+            line="7"
+            column="172"/>
+    </issue>
+
+    <issue
+        id="MissingClass"
+        message="Class referenced in the manifest, `com.example.encryptor.MainActivity`, was not found in the project or the libraries"
+        errorLine1="        &lt;activity android:exported=&quot;true&quot; android:name=&quot;com.example.encryptor.MainActivity&quot;>"
+        errorLine2="                                                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="AndroidManifest.xml"
+            line="5"
+            column="57"/>
+    </issue>
+
+    <issue
+        id="MissingClass"
+        message="Class referenced in the manifest, `androidx.startup.InitializationProvider`, was not found in the project or the libraries"
+        errorLine1="        &lt;provider android:authorities=&quot;com.example.encryptor.androidx-startup&quot; android:exported=&quot;false&quot; android:name=&quot;androidx.startup.InitializationProvider&quot;>"
+        errorLine2="                                                                                                                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="AndroidManifest.xml"
+            line="11"
+            column="119"/>
+    </issue>
+
+    <issue
+        id="MissingClass"
+        message="Class referenced in the manifest, `androidx.profileinstaller.ProfileInstallReceiver`, was not found in the project or the libraries"
+        errorLine1="        &lt;receiver android:directBootAware=&quot;false&quot; android:enabled=&quot;true&quot; android:exported=&quot;true&quot; android:name=&quot;androidx.profileinstaller.ProfileInstallReceiver&quot; android:permission=&quot;android.permission.DUMP&quot;>"
+        errorLine2="                                                                                                               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="AndroidManifest.xml"
+            line="16"
+            column="112"/>
+    </issue>
+
+    <issue
+        id="MissingClass"
+        message="Class referenced in the layout file, `androidx.appcompat.view.menu.ActionMenuItemView`, was not found in the project or the libraries"
+        errorLine1="&lt;androidx.appcompat.view.menu.ActionMenuItemView android:textAppearance=&quot;?actionMenuTextAppearance&quot; android:textColor=&quot;?actionMenuTextColor&quot; android:gravity=&quot;center&quot; android:layout_gravity=&quot;center&quot; android:paddingLeft=&quot;8.0dip&quot; android:paddingTop=&quot;4.0dip&quot; android:paddingRight=&quot;8.0dip&quot; android:paddingBottom=&quot;4.0dip&quot; android:focusable=&quot;true&quot; android:layout_width=&quot;wrap_content&quot; android:layout_height=&quot;wrap_content&quot; style=&quot;?actionButtonStyle&quot;"
+        errorLine2="^">
+        <location
+            file="res/layout/abc_action_menu_item_layout.xml"
+            line="2"
+            column="1"/>
+    </issue>
+
+    <issue
+        id="MissingClass"
+        message="Class referenced in the layout file, `androidx.appcompat.widget.ActionMenuView`, was not found in the project or the libraries"
+        errorLine1="&lt;androidx.appcompat.widget.ActionMenuView android:gravity=&quot;center_vertical&quot; android:layout_width=&quot;wrap_content&quot; android:layout_height=&quot;wrap_content&quot; app:divider=&quot;?actionBarDivider&quot; app:dividerPadding=&quot;12.0dip&quot;"
+        errorLine2="^">
+        <location
+            file="res/layout/abc_action_menu_layout.xml"
+            line="2"
+            column="1"/>
+    </issue>
+
+    <issue
+        id="MissingClass"
+        message="Class referenced in the layout file, `androidx.appcompat.widget.ActionBarContextView`, was not found in the project or the libraries"
+        errorLine1="&lt;androidx.appcompat.widget.ActionBarContextView android:theme=&quot;?actionModeTheme&quot; android:visibility=&quot;gone&quot; android:layout_width=&quot;fill_parent&quot; android:layout_height=&quot;wrap_content&quot; style=&quot;?actionModeStyle&quot;"
+        errorLine2="^">
+        <location
+            file="res/layout/abc_action_mode_bar.xml"
+            line="2"
+            column="1"/>
+    </issue>
+
+    <issue
+        id="MissingClass"
+        message="Class referenced in the layout file, `androidx.appcompat.widget.ActivityChooserView$InnerLayout`, was not found in the project or the libraries"
+        errorLine1="&lt;view android:layout_gravity=&quot;center&quot; android:id=&quot;@id/activity_chooser_view_content&quot; android:layout_width=&quot;wrap_content&quot; android:layout_height=&quot;fill_parent&quot; class=&quot;androidx.appcompat.widget.ActivityChooserView$InnerLayout&quot; style=&quot;?activityChooserViewStyle&quot;"
+        errorLine2="                                                                                                                                                                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="res/layout/abc_activity_chooser_view.xml"
+            line="2"
+            column="165"/>
+    </issue>
+
+    <issue
+        id="MissingClass"
+        message="Class referenced in the layout file, `androidx.appcompat.widget.ButtonBarLayout`, was not found in the project or the libraries"
+        errorLine1="&lt;androidx.appcompat.widget.ButtonBarLayout android:gravity=&quot;bottom&quot; android:orientation=&quot;horizontal&quot; android:id=&quot;@id/buttonPanel&quot; android:paddingLeft=&quot;12.0dip&quot; android:paddingTop=&quot;4.0dip&quot; android:paddingRight=&quot;12.0dip&quot; android:paddingBottom=&quot;4.0dip&quot; android:layout_width=&quot;fill_parent&quot; android:layout_height=&quot;wrap_content&quot; android:layoutDirection=&quot;locale&quot;"
+        errorLine2="^">
+        <location
+            file="res/layout-watch/abc_alert_dialog_button_bar_material.xml"
+            line="2"
+            column="1"/>
+    </issue>
+
+    <issue
+        id="MissingClass"
+        message="Class referenced in the layout file, `androidx.appcompat.widget.ButtonBarLayout`, was not found in the project or the libraries"
+        errorLine1="    &lt;androidx.appcompat.widget.ButtonBarLayout android:gravity=&quot;bottom&quot; android:orientation=&quot;horizontal&quot; android:paddingLeft=&quot;12.0dip&quot; android:paddingTop=&quot;4.0dip&quot; android:paddingRight=&quot;12.0dip&quot; android:paddingBottom=&quot;4.0dip&quot; android:layout_width=&quot;fill_parent&quot; android:layout_height=&quot;wrap_content&quot; android:layoutDirection=&quot;locale&quot;>"
+        errorLine2="    ^">
+        <location
+            file="res/layout/abc_alert_dialog_button_bar_material.xml"
+            line="4"
+            column="5"/>
+    </issue>
+
+    <issue
+        id="MissingClass"
+        message="Class referenced in the layout file, `androidx.appcompat.widget.AlertDialogLayout`, was not found in the project or the libraries"
+        errorLine1="&lt;androidx.appcompat.widget.AlertDialogLayout android:gravity=&quot;start|center|top&quot; android:orientation=&quot;vertical&quot; android:id=&quot;@id/parentPanel&quot; android:layout_width=&quot;fill_parent&quot; android:layout_height=&quot;wrap_content&quot;"
+        errorLine2="^">
+        <location
+            file="res/layout/abc_alert_dialog_material.xml"
+            line="2"
+            column="1"/>
+    </issue>
+
+    <issue
+        id="MissingClass"
+        message="Class referenced in the layout file, `androidx.core.widget.NestedScrollView`, was not found in the project or the libraries"
+        errorLine1="        &lt;androidx.core.widget.NestedScrollView android:id=&quot;@id/scrollView&quot; android:clipToPadding=&quot;false&quot; android:layout_width=&quot;fill_parent&quot; android:layout_height=&quot;wrap_content&quot;>"
+        errorLine2="        ^">
+        <location
+            file="res/layout/abc_alert_dialog_material.xml"
+            line="7"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="MissingClass"
+        message="Class referenced in the layout file, `androidx.appcompat.widget.DialogTitle`, was not found in the project or the libraries"
+        errorLine1="        &lt;androidx.appcompat.widget.DialogTitle android:gravity=&quot;center&quot; android:id=&quot;@id/alertTitle&quot; android:layout_width=&quot;fill_parent&quot; android:layout_height=&quot;wrap_content&quot; style=&quot;?android:windowTitleStyle&quot; />"
+        errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="res/layout-watch/abc_alert_dialog_title_material.xml"
+            line="6"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="MissingClass"
+        message="Class referenced in the layout file, `androidx.appcompat.widget.DialogTitle`, was not found in the project or the libraries"
+        errorLine1="        &lt;androidx.appcompat.widget.DialogTitle android:ellipsize=&quot;end&quot; android:layout_gravity=&quot;start&quot; android:id=&quot;@id/alertTitle&quot; android:layout_width=&quot;fill_parent&quot; android:layout_height=&quot;wrap_content&quot; android:singleLine=&quot;true&quot; android:textAlignment=&quot;viewStart&quot; style=&quot;?android:windowTitleStyle&quot; />"
+        errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="res/layout/abc_alert_dialog_title_material.xml"
+            line="6"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="MissingClass"
+        message="Class referenced in the layout file, `androidx.appcompat.view.menu.ListMenuItemView`, was not found in the project or the libraries"
+        errorLine1="&lt;androidx.appcompat.view.menu.ListMenuItemView android:orientation=&quot;vertical&quot; android:layout_width=&quot;fill_parent&quot; android:layout_height=&quot;wrap_content&quot; android:minWidth=&quot;196.0dip&quot;"
+        errorLine2="^">
+        <location
+            file="res/layout/abc_cascading_menu_item_layout.xml"
+            line="2"
+            column="1"/>
+    </issue>
+
+    <issue
+        id="MissingClass"
+        message="Class referenced in the layout file, `androidx.appcompat.widget.FitWindowsLinearLayout`, was not found in the project or the libraries"
+        errorLine1="&lt;androidx.appcompat.widget.FitWindowsLinearLayout android:orientation=&quot;vertical&quot; android:fitsSystemWindows=&quot;true&quot; android:layout_width=&quot;fill_parent&quot; android:layout_height=&quot;fill_parent&quot;"
+        errorLine2="^">
+        <location
+            file="res/layout/abc_dialog_title_material.xml"
+            line="2"
+            column="1"/>
+    </issue>
+
+    <issue
+        id="MissingClass"
+        message="Class referenced in the layout file, `androidx.appcompat.view.menu.ExpandedMenuView`, was not found in the project or the libraries"
+        errorLine1="&lt;androidx.appcompat.view.menu.ExpandedMenuView android:id=&quot;@id/expanded_menu&quot; android:layout_width=&quot;?panelMenuListWidth&quot; android:layout_height=&quot;wrap_content&quot;"
+        errorLine2="^">
+        <location
+            file="res/layout/abc_expanded_menu_layout.xml"
+            line="2"
+            column="1"/>
+    </issue>
+
+    <issue
+        id="MissingClass"
+        message="Class referenced in the layout file, `androidx.appcompat.view.menu.ListMenuItemView`, was not found in the project or the libraries"
+        errorLine1="&lt;androidx.appcompat.view.menu.ListMenuItemView android:layout_width=&quot;fill_parent&quot; android:layout_height=&quot;?listPreferredItemHeightSmall&quot;"
+        errorLine2="^">
+        <location
+            file="res/layout/abc_list_menu_item_layout.xml"
+            line="2"
+            column="1"/>
+    </issue>
+
+    <issue
+        id="MissingClass"
+        message="Class referenced in the layout file, `androidx.appcompat.view.menu.ListMenuItemView`, was not found in the project or the libraries"
+        errorLine1="&lt;androidx.appcompat.view.menu.ListMenuItemView android:orientation=&quot;vertical&quot; android:layout_width=&quot;fill_parent&quot; android:layout_height=&quot;wrap_content&quot; android:minWidth=&quot;196.0dip&quot;"
+        errorLine2="^">
+        <location
+            file="res/layout/abc_popup_menu_item_layout.xml"
+            line="2"
+            column="1"/>
+    </issue>
+
+    <issue
+        id="MissingClass"
+        message="Class referenced in the layout file, `androidx.appcompat.widget.ContentFrameLayout`, was not found in the project or the libraries"
+        errorLine1="    &lt;androidx.appcompat.widget.ContentFrameLayout android:id=&quot;@id/action_bar_activity_content&quot; android:layout_width=&quot;fill_parent&quot; android:layout_height=&quot;fill_parent&quot; android:foreground=&quot;?android:windowContentOverlay&quot; android:foregroundGravity=&quot;fill_horizontal|center|top&quot; />"
+        errorLine2="    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="res/layout/abc_screen_content_include.xml"
+            line="4"
+            column="5"/>
+    </issue>
+
+    <issue
+        id="MissingClass"
+        message="Class referenced in the layout file, `androidx.appcompat.widget.FitWindowsLinearLayout`, was not found in the project or the libraries"
+        errorLine1="&lt;androidx.appcompat.widget.FitWindowsLinearLayout android:orientation=&quot;vertical&quot; android:id=&quot;@id/action_bar_root&quot; android:fitsSystemWindows=&quot;true&quot; android:layout_width=&quot;fill_parent&quot; android:layout_height=&quot;fill_parent&quot;"
+        errorLine2="^">
+        <location
+            file="res/layout/abc_screen_simple.xml"
+            line="2"
+            column="1"/>
+    </issue>
+
+    <issue
+        id="MissingClass"
+        message="Class referenced in the layout file, `androidx.appcompat.widget.ViewStubCompat`, was not found in the project or the libraries"
+        errorLine1="    &lt;androidx.appcompat.widget.ViewStubCompat android:id=&quot;@id/action_mode_bar_stub&quot; android:layout=&quot;@layout/abc_action_mode_bar&quot; android:inflatedId=&quot;@id/action_mode_bar&quot; android:layout_width=&quot;fill_parent&quot; android:layout_height=&quot;wrap_content&quot; />"
+        errorLine2="    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="res/layout/abc_screen_simple.xml"
+            line="4"
+            column="5"/>
+    </issue>
+
+    <issue
+        id="MissingClass"
+        message="Class referenced in the layout file, `androidx.appcompat.widget.FitWindowsFrameLayout`, was not found in the project or the libraries"
+        errorLine1="&lt;androidx.appcompat.widget.FitWindowsFrameLayout android:id=&quot;@id/action_bar_root&quot; android:fitsSystemWindows=&quot;true&quot; android:layout_width=&quot;fill_parent&quot; android:layout_height=&quot;fill_parent&quot;"
+        errorLine2="^">
+        <location
+            file="res/layout/abc_screen_simple_overlay_action_mode.xml"
+            line="2"
+            column="1"/>
+    </issue>
+
+    <issue
+        id="MissingClass"
+        message="Class referenced in the layout file, `androidx.appcompat.widget.ViewStubCompat`, was not found in the project or the libraries"
+        errorLine1="    &lt;androidx.appcompat.widget.ViewStubCompat android:id=&quot;@id/action_mode_bar_stub&quot; android:layout=&quot;@layout/abc_action_mode_bar&quot; android:inflatedId=&quot;@id/action_mode_bar&quot; android:layout_width=&quot;fill_parent&quot; android:layout_height=&quot;wrap_content&quot; />"
+        errorLine2="    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="res/layout/abc_screen_simple_overlay_action_mode.xml"
+            line="5"
+            column="5"/>
+    </issue>
+
+    <issue
+        id="MissingClass"
+        message="Class referenced in the layout file, `androidx.appcompat.widget.ActionBarOverlayLayout`, was not found in the project or the libraries"
+        errorLine1="&lt;androidx.appcompat.widget.ActionBarOverlayLayout android:id=&quot;@id/decor_content_parent&quot; android:fitsSystemWindows=&quot;true&quot; android:layout_width=&quot;fill_parent&quot; android:layout_height=&quot;fill_parent&quot;"
+        errorLine2="^">
+        <location
+            file="res/layout-v26/abc_screen_toolbar.xml"
+            line="2"
+            column="1"/>
+    </issue>
+
+    <issue
+        id="MissingClass"
+        message="Class referenced in the layout file, `androidx.appcompat.widget.ActionBarOverlayLayout`, was not found in the project or the libraries"
+        errorLine1="&lt;androidx.appcompat.widget.ActionBarOverlayLayout android:id=&quot;@id/decor_content_parent&quot; android:fitsSystemWindows=&quot;true&quot; android:layout_width=&quot;fill_parent&quot; android:layout_height=&quot;fill_parent&quot;"
+        errorLine2="^">
+        <location
+            file="res/layout/abc_screen_toolbar.xml"
+            line="2"
+            column="1"/>
+    </issue>
+
+    <issue
+        id="MissingClass"
+        message="Class referenced in the layout file, `androidx.appcompat.widget.ActionBarContainer`, was not found in the project or the libraries"
+        errorLine1="    &lt;androidx.appcompat.widget.ActionBarContainer android:gravity=&quot;top&quot; android:id=&quot;@id/action_bar_container&quot; android:layout_width=&quot;fill_parent&quot; android:layout_height=&quot;wrap_content&quot; android:layout_alignParentTop=&quot;true&quot; android:touchscreenBlocksFocus=&quot;true&quot; android:keyboardNavigationCluster=&quot;true&quot; style=&quot;?actionBarStyle&quot;>"
+        errorLine2="    ^">
+        <location
+            file="res/layout-v26/abc_screen_toolbar.xml"
+            line="5"
+            column="5"/>
+    </issue>
+
+    <issue
+        id="MissingClass"
+        message="Class referenced in the layout file, `androidx.appcompat.widget.ActionBarContainer`, was not found in the project or the libraries"
+        errorLine1="    &lt;androidx.appcompat.widget.ActionBarContainer android:gravity=&quot;top&quot; android:id=&quot;@id/action_bar_container&quot; android:layout_width=&quot;fill_parent&quot; android:layout_height=&quot;wrap_content&quot; android:layout_alignParentTop=&quot;true&quot; android:touchscreenBlocksFocus=&quot;true&quot; style=&quot;?actionBarStyle&quot;>"
+        errorLine2="    ^">
+        <location
+            file="res/layout/abc_screen_toolbar.xml"
+            line="5"
+            column="5"/>
+    </issue>
+
+    <issue
+        id="MissingClass"
+        message="Class referenced in the layout file, `androidx.appcompat.widget.Toolbar`, was not found in the project or the libraries"
+        errorLine1="        &lt;androidx.appcompat.widget.Toolbar android:id=&quot;@id/action_bar&quot; android:layout_width=&quot;fill_parent&quot; android:layout_height=&quot;wrap_content&quot; app:navigationContentDescription=&quot;@string/abc_action_bar_up_description&quot; style=&quot;?toolbarStyle&quot; />"
+        errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="res/layout-v26/abc_screen_toolbar.xml"
+            line="6"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="MissingClass"
+        message="Class referenced in the layout file, `androidx.appcompat.widget.Toolbar`, was not found in the project or the libraries"
+        errorLine1="        &lt;androidx.appcompat.widget.Toolbar android:id=&quot;@id/action_bar&quot; android:layout_width=&quot;fill_parent&quot; android:layout_height=&quot;wrap_content&quot; app:navigationContentDescription=&quot;@string/abc_action_bar_up_description&quot; style=&quot;?toolbarStyle&quot; />"
+        errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="res/layout/abc_screen_toolbar.xml"
+            line="6"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="MissingClass"
+        message="Class referenced in the layout file, `androidx.appcompat.widget.ActionBarContextView`, was not found in the project or the libraries"
+        errorLine1="        &lt;androidx.appcompat.widget.ActionBarContextView android:theme=&quot;?actionModeTheme&quot; android:id=&quot;@id/action_context_bar&quot; android:visibility=&quot;gone&quot; android:layout_width=&quot;fill_parent&quot; android:layout_height=&quot;wrap_content&quot; style=&quot;?actionModeStyle&quot; />"
+        errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="res/layout-v26/abc_screen_toolbar.xml"
+            line="7"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="MissingClass"
+        message="Class referenced in the layout file, `androidx.appcompat.widget.ActionBarContextView`, was not found in the project or the libraries"
+        errorLine1="        &lt;androidx.appcompat.widget.ActionBarContextView android:theme=&quot;?actionModeTheme&quot; android:id=&quot;@id/action_context_bar&quot; android:visibility=&quot;gone&quot; android:layout_width=&quot;fill_parent&quot; android:layout_height=&quot;wrap_content&quot; style=&quot;?actionModeStyle&quot; />"
+        errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="res/layout/abc_screen_toolbar.xml"
+            line="7"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="MissingClass"
+        message="Class referenced in the layout file, `androidx.appcompat.widget.SearchView$SearchAutoComplete`, was not found in the project or the libraries"
+        errorLine1="            &lt;view android:ellipsize=&quot;end&quot; android:layout_gravity=&quot;center_vertical&quot; android:id=&quot;@id/search_src_text&quot; android:background=&quot;@null&quot; android:paddingLeft=&quot;@dimen/abc_dropdownitem_text_padding_left&quot; android:paddingRight=&quot;@dimen/abc_dropdownitem_text_padding_right&quot; android:layout_width=&quot;0.0dip&quot; android:layout_height=&quot;36.0dip&quot; android:singleLine=&quot;true&quot; android:layout_weight=&quot;1.0&quot; android:inputType=&quot;textAutoComplete|textNoSuggestions&quot; android:dropDownAnchor=&quot;@id/search_edit_frame&quot; android:imeOptions=&quot;actionSearch&quot; android:dropDownHeight=&quot;wrap_content&quot; android:dropDownHorizontalOffset=&quot;0.0dip&quot; android:dropDownVerticalOffset=&quot;0.0dip&quot; class=&quot;androidx.appcompat.widget.SearchView$SearchAutoComplete&quot; />"
+        errorLine2="                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="res/layout/abc_search_view.xml"
+            line="9"
+            column="653"/>
+    </issue>
+
+    <issue
+        id="MissingClass"
+        message="Class referenced in the layout file, `androidx.appcompat.app.AlertController$RecycleListView`, was not found in the project or the libraries"
+        errorLine1="&lt;view android:layout_gravity=&quot;start&quot; android:id=&quot;@id/select_dialog_listview&quot; android:scrollbars=&quot;vertical&quot; android:fadingEdge=&quot;none&quot; android:clipToPadding=&quot;false&quot; android:layout_width=&quot;fill_parent&quot; android:layout_height=&quot;fill_parent&quot; android:cacheColorHint=&quot;@null&quot; android:divider=&quot;?listDividerAlertDialog&quot; android:overScrollMode=&quot;ifContentScrolls&quot; android:textAlignment=&quot;viewStart&quot; app:paddingBottomNoButtons=&quot;@dimen/abc_dialog_list_padding_bottom_no_buttons&quot; app:paddingTopNoTitle=&quot;@dimen/abc_dialog_list_padding_top_no_title&quot; class=&quot;androidx.appcompat.app.AlertController$RecycleListView&quot; style=&quot;@style/Widget.AppCompat.ListView&quot;"
+        errorLine2="                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="res/layout/abc_select_dialog_material.xml"
+            line="2"
+            column="537"/>
+    </issue>
+
+    <issue
+        id="MissingClass"
+        message="Class referenced in the layout file, `androidx.constraintlayout.widget.ConstraintLayout`, was not found in the project or the libraries"
+        errorLine1="&lt;androidx.constraintlayout.widget.ConstraintLayout android:background=&quot;#ff97c7cd&quot; android:layout_width=&quot;fill_parent&quot; android:layout_height=&quot;fill_parent&quot;"
+        errorLine2="^">
+        <location
+            file="res/layout/activity_main.xml"
+            line="2"
+            column="1"/>
+    </issue>
+
+    <issue
+        id="MissingClass"
+        message="Class referenced in the layout file, `com.google.android.material.internal.BaselineLayout`, was not found in the project or the libraries"
+        errorLine1="    &lt;com.google.android.material.internal.BaselineLayout android:layout_gravity=&quot;bottom|center&quot; android:id=&quot;@id/navigation_bar_item_labels_group&quot; android:paddingBottom=&quot;@dimen/design_bottom_navigation_label_padding&quot; android:duplicateParentState=&quot;true&quot; android:clipChildren=&quot;false&quot; android:clipToPadding=&quot;false&quot; android:layout_width=&quot;wrap_content&quot; android:layout_height=&quot;wrap_content&quot;>"
+        errorLine2="    ^">
+        <location
+            file="res/layout/design_bottom_navigation_item.xml"
+            line="8"
+            column="5"/>
+    </issue>
+
+    <issue
+        id="MissingClass"
+        message="Class referenced in the layout file, `androidx.coordinatorlayout.widget.CoordinatorLayout`, was not found in the project or the libraries"
+        errorLine1="    &lt;androidx.coordinatorlayout.widget.CoordinatorLayout android:id=&quot;@id/coordinator&quot; android:fitsSystemWindows=&quot;true&quot; android:layout_width=&quot;fill_parent&quot; android:layout_height=&quot;fill_parent&quot;>"
+        errorLine2="    ^">
+        <location
+            file="res/layout/design_bottom_sheet_dialog.xml"
+            line="4"
+            column="5"/>
+    </issue>
+
+    <issue
+        id="MissingClass"
+        message="Class referenced in the layout file, `com.google.android.material.snackbar.Snackbar$SnackbarLayout`, was not found in the project or the libraries"
+        errorLine1="&lt;view android:theme=&quot;@style/ThemeOverlay.AppCompat.Dark&quot; android:layout_gravity=&quot;bottom|center&quot; android:layout_width=&quot;wrap_content&quot; android:layout_height=&quot;wrap_content&quot; class=&quot;com.google.android.material.snackbar.Snackbar$SnackbarLayout&quot; style=&quot;@style/Widget.Design.Snackbar&quot;"
+        errorLine2="                                                                                                                                                                                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="res/layout-sw600dp/design_layout_snackbar.xml"
+            line="2"
+            column="177"/>
+    </issue>
+
+    <issue
+        id="MissingClass"
+        message="Class referenced in the layout file, `com.google.android.material.snackbar.Snackbar$SnackbarLayout`, was not found in the project or the libraries"
+        errorLine1="&lt;view android:theme=&quot;@style/ThemeOverlay.AppCompat.Dark&quot; android:layout_gravity=&quot;bottom&quot; android:layout_width=&quot;fill_parent&quot; android:layout_height=&quot;wrap_content&quot; class=&quot;com.google.android.material.snackbar.Snackbar$SnackbarLayout&quot; style=&quot;@style/Widget.Design.Snackbar&quot;"
+        errorLine2="                                                                                                                                                                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="res/layout/design_layout_snackbar.xml"
+            line="2"
+            column="169"/>
+    </issue>
+
+    <issue
+        id="MissingClass"
+        message="Class referenced in the layout file, `com.google.android.material.snackbar.SnackbarContentLayout`, was not found in the project or the libraries"
+        errorLine1="&lt;view android:theme=&quot;@style/ThemeOverlay.AppCompat.Dark&quot; android:layout_gravity=&quot;bottom&quot; android:layout_width=&quot;fill_parent&quot; android:layout_height=&quot;wrap_content&quot; class=&quot;com.google.android.material.snackbar.SnackbarContentLayout&quot;"
+        errorLine2="                                                                                                                                                                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="res/layout/design_layout_snackbar_include.xml"
+            line="2"
+            column="169"/>
+    </issue>
+
+    <issue
+        id="MissingClass"
+        message="Class referenced in the layout file, `com.google.android.material.internal.NavigationMenuItemView`, was not found in the project or the libraries"
+        errorLine1="&lt;com.google.android.material.internal.NavigationMenuItemView android:paddingLeft=&quot;?listPreferredItemPaddingLeft&quot; android:paddingRight=&quot;?listPreferredItemPaddingRight&quot; android:focusable=&quot;true&quot; android:layout_width=&quot;fill_parent&quot; android:layout_height=&quot;wrap_content&quot; android:foreground=&quot;?selectableItemBackground&quot; android:minHeight=&quot;?listPreferredItemHeightSmall&quot; android:defaultFocusHighlightEnabled=&quot;false&quot;"
+        errorLine2="^">
+        <location
+            file="res/layout/design_navigation_item.xml"
+            line="2"
+            column="1"/>
+    </issue>
+
+    <issue
+        id="MissingClass"
+        message="Class referenced in the layout file, `com.google.android.material.internal.NavigationMenuView`, was not found in the project or the libraries"
+        errorLine1="&lt;com.google.android.material.internal.NavigationMenuView android:id=&quot;@id/design_navigation_view&quot; android:paddingBottom=&quot;@dimen/design_navigation_padding_bottom&quot; android:scrollbars=&quot;vertical&quot; android:clipToPadding=&quot;false&quot; android:layout_width=&quot;fill_parent&quot; android:layout_height=&quot;fill_parent&quot;"
+        errorLine2="^">
+        <location
+            file="res/layout/design_navigation_menu.xml"
+            line="2"
+            column="1"/>
+    </issue>
+
+    <issue
+        id="MissingClass"
+        message="Class referenced in the layout file, `com.google.android.material.internal.CheckableImageButton`, was not found in the project or the libraries"
+        errorLine1="&lt;com.google.android.material.internal.CheckableImageButton android:layout_gravity=&quot;end|center&quot; android:id=&quot;@id/text_input_end_icon&quot; android:background=&quot;?actionBarItemBackground&quot; android:visibility=&quot;gone&quot; android:layout_width=&quot;wrap_content&quot; android:layout_height=&quot;wrap_content&quot; android:minWidth=&quot;@dimen/mtrl_min_touch_target_size&quot; android:minHeight=&quot;@dimen/mtrl_min_touch_target_size&quot; android:layout_marginStart=&quot;@dimen/mtrl_textinput_end_icon_margin_start&quot;"
+        errorLine2="^">
+        <location
+            file="res/layout/design_text_input_end_icon.xml"
+            line="2"
+            column="1"/>
+    </issue>
+
+    <issue
+        id="MissingClass"
+        message="Class referenced in the layout file, `com.google.android.material.internal.CheckableImageButton`, was not found in the project or the libraries"
+        errorLine1="&lt;com.google.android.material.internal.CheckableImageButton android:layout_gravity=&quot;start|center&quot; android:id=&quot;@id/text_input_start_icon&quot; android:background=&quot;?actionBarItemBackground&quot; android:visibility=&quot;gone&quot; android:layout_width=&quot;wrap_content&quot; android:layout_height=&quot;wrap_content&quot; android:minWidth=&quot;@dimen/mtrl_min_touch_target_size&quot; android:minHeight=&quot;@dimen/mtrl_min_touch_target_size&quot; android:layout_marginEnd=&quot;@dimen/mtrl_textinput_start_icon_margin_end&quot;"
+        errorLine2="^">
+        <location
+            file="res/layout/design_text_input_start_icon.xml"
+            line="2"
+            column="1"/>
+    </issue>
+
+    <issue
+        id="MissingClass"
+        message="Class referenced in the layout file, `androidx.appcompat.widget.AlertDialogLayout`, was not found in the project or the libraries"
+        errorLine1="&lt;androidx.appcompat.widget.AlertDialogLayout android:gravity=&quot;start|center|top&quot; android:orientation=&quot;vertical&quot; android:id=&quot;@id/parentPanel&quot; android:layout_width=&quot;fill_parent&quot; android:layout_height=&quot;wrap_content&quot;"
+        errorLine2="^">
+        <location
+            file="res/layout/m3_alert_dialog.xml"
+            line="2"
+            column="1"/>
+    </issue>
+
+    <issue
+        id="MissingClass"
+        message="Class referenced in the layout file, `androidx.core.widget.NestedScrollView`, was not found in the project or the libraries"
+        errorLine1="        &lt;androidx.core.widget.NestedScrollView android:id=&quot;@id/scrollView&quot; android:clipToPadding=&quot;false&quot; android:layout_width=&quot;fill_parent&quot; android:layout_height=&quot;wrap_content&quot;>"
+        errorLine2="        ^">
+        <location
+            file="res/layout/m3_alert_dialog.xml"
+            line="7"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="MissingClass"
+        message="Class referenced in the layout file, `androidx.appcompat.widget.ButtonBarLayout`, was not found in the project or the libraries"
+        errorLine1="    &lt;androidx.appcompat.widget.ButtonBarLayout android:gravity=&quot;bottom&quot; android:orientation=&quot;horizontal&quot; android:paddingLeft=&quot;?dialogPreferredPadding&quot; android:paddingTop=&quot;@dimen/m3_alert_dialog_action_top_padding&quot; android:paddingRight=&quot;?dialogPreferredPadding&quot; android:paddingBottom=&quot;@dimen/m3_alert_dialog_action_bottom_padding&quot; android:layout_width=&quot;fill_parent&quot; android:layout_height=&quot;wrap_content&quot; android:layoutDirection=&quot;locale&quot;>"
+        errorLine2="    ^">
+        <location
+            file="res/layout/m3_alert_dialog_actions.xml"
+            line="4"
+            column="5"/>
+    </issue>
+
+    <issue
+        id="MissingClass"
+        message="Class referenced in the layout file, `androidx.appcompat.widget.DialogTitle`, was not found in the project or the libraries"
+        errorLine1="        &lt;androidx.appcompat.widget.DialogTitle android:id=&quot;@id/alertTitle&quot; style=&quot;?materialAlertDialogTitleTextStyle&quot; />"
+        errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="res/layout/m3_alert_dialog_title.xml"
+            line="6"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="MissingClass"
+        message="Class referenced in the layout file, `androidx.coordinatorlayout.widget.CoordinatorLayout`, was not found in the project or the libraries"
+        errorLine1="    &lt;androidx.coordinatorlayout.widget.CoordinatorLayout android:id=&quot;@id/coordinator&quot; android:fitsSystemWindows=&quot;true&quot; android:layout_width=&quot;fill_parent&quot; android:layout_height=&quot;fill_parent&quot;>"
+        errorLine2="    ^">
+        <location
+            file="res/layout/m3_side_sheet_dialog.xml"
+            line="4"
+            column="5"/>
+    </issue>
+
+    <issue
+        id="MissingClass"
+        message="Class referenced in the layout file, `com.google.android.material.timepicker.ChipTextInputComboView`, was not found in the project or the libraries"
+        errorLine1="&lt;com.google.android.material.timepicker.ChipTextInputComboView android:layout_width=&quot;wrap_content&quot; android:layout_height=&quot;wrap_content&quot;"
+        errorLine2="^">
+        <location
+            file="res/layout/material_chip_input_combo.xml"
+            line="2"
+            column="1"/>
+    </issue>
+
+    <issue
+        id="MissingClass"
+        message="Class referenced in the layout file, `com.google.android.material.button.MaterialButtonToggleGroup`, was not found in the project or the libraries"
+        errorLine1="&lt;com.google.android.material.button.MaterialButtonToggleGroup android:orientation=&quot;vertical&quot; android:id=&quot;@id/material_clock_period_toggle&quot; android:visibility=&quot;gone&quot; android:layout_width=&quot;@dimen/material_clock_period_toggle_width&quot; android:layout_height=&quot;@dimen/material_clock_period_toggle_height&quot; android:contentDescription=&quot;@string/material_clock_toggle_content_description&quot; app:checkedButton=&quot;@id/material_clock_period_am_button&quot; app:selectionRequired=&quot;true&quot; app:singleSelection=&quot;true&quot;"
+        errorLine2="^">
+        <location
+            file="res/layout/material_clock_period_toggle.xml"
+            line="2"
+            column="1"/>
+    </issue>
+
+    <issue
+        id="MissingClass"
+        message="Class referenced in the layout file, `com.google.android.material.button.MaterialButton`, was not found in the project or the libraries"
+        errorLine1="    &lt;com.google.android.material.button.MaterialButton android:id=&quot;@id/material_clock_period_am_button&quot; android:layout_width=&quot;wrap_content&quot; android:text=&quot;@string/material_timepicker_am&quot; android:insetTop=&quot;8.0dip&quot; style=&quot;?materialButtonOutlinedStyle&quot; />"
+        errorLine2="    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="res/layout/material_clock_period_toggle.xml"
+            line="4"
+            column="5"/>
+    </issue>
+
+    <issue
+        id="MissingClass"
+        message="Class referenced in the layout file, `com.google.android.material.button.MaterialButton`, was not found in the project or the libraries"
+        errorLine1="    &lt;com.google.android.material.button.MaterialButton android:id=&quot;@id/material_clock_period_pm_button&quot; android:layout_width=&quot;wrap_content&quot; android:text=&quot;@string/material_timepicker_pm&quot; android:insetBottom=&quot;8.0dip&quot; style=&quot;?materialButtonOutlinedStyle&quot; />"
+        errorLine2="    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="res/layout/material_clock_period_toggle.xml"
+            line="5"
+            column="5"/>
+    </issue>
+
+    <issue
+        id="MissingClass"
+        message="Class referenced in the layout file, `com.google.android.material.button.MaterialButtonToggleGroup`, was not found in the project or the libraries"
+        errorLine1="&lt;com.google.android.material.button.MaterialButtonToggleGroup android:orientation=&quot;horizontal&quot; android:id=&quot;@id/material_clock_period_toggle&quot; android:visibility=&quot;gone&quot; android:layout_width=&quot;wrap_content&quot; android:layout_height=&quot;wrap_content&quot; app:checkedButton=&quot;@id/material_clock_period_am_button&quot; app:selectionRequired=&quot;true&quot; app:singleSelection=&quot;true&quot;"
+        errorLine2="^">
+        <location
+            file="res/layout-land/material_clock_period_toggle_land.xml"
+            line="2"
+            column="1"/>
+    </issue>
+
+    <issue
+        id="MissingClass"
+        message="Class referenced in the layout file, `com.google.android.material.timepicker.ClockHandView`, was not found in the project or the libraries"
+        errorLine1="    &lt;com.google.android.material.timepicker.ClockHandView android:id=&quot;@id/material_clock_hand&quot; android:tag=&quot;skip&quot; android:layout_width=&quot;fill_parent&quot; android:layout_height=&quot;fill_parent&quot; app:layout_constraintBottom_toBottomOf=&quot;parent&quot; app:layout_constraintEnd_toEndOf=&quot;parent&quot; app:layout_constraintStart_toStartOf=&quot;parent&quot; app:layout_constraintTop_toTopOf=&quot;parent&quot; app:selectorSize=&quot;24.0dip&quot; />"
+        errorLine2="    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="res/layout/material_clockface_view.xml"
+            line="4"
+            column="5"/>
+    </issue>
+
+    <issue
+        id="MissingClass"
+        message="Class referenced in the layout file, `com.google.android.material.chip.Chip`, was not found in the project or the libraries"
+        errorLine1="&lt;com.google.android.material.chip.Chip android:layout_width=&quot;@dimen/material_clock_display_width&quot; android:layout_height=&quot;@dimen/material_clock_display_height&quot; style=&quot;?chipStyle&quot;"
+        errorLine2="^">
+        <location
+            file="res/layout/material_time_chip.xml"
+            line="2"
+            column="1"/>
+    </issue>
+
+    <issue
+        id="MissingClass"
+        message="Class referenced in the layout file, `com.google.android.material.textfield.TextInputLayout`, was not found in the project or the libraries"
+        errorLine1="&lt;com.google.android.material.textfield.TextInputLayout android:layout_width=&quot;wrap_content&quot; android:layout_height=&quot;wrap_content&quot; app:errorIconDrawable=&quot;@null&quot; app:hintEnabled=&quot;false&quot;"
+        errorLine2="^">
+        <location
+            file="res/layout/material_time_input.xml"
+            line="2"
+            column="1"/>
+    </issue>
+
+    <issue
+        id="MissingClass"
+        message="Class referenced in the layout file, `com.google.android.material.textfield.TextInputEditText`, was not found in the project or the libraries"
+        errorLine1="    &lt;com.google.android.material.textfield.TextInputEditText android:layout_width=&quot;@dimen/material_clock_display_width&quot; android:layout_height=&quot;@dimen/material_clock_display_height&quot; android:textCursorDrawable=&quot;@drawable/material_cursor_drawable&quot; />"
+        errorLine2="    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="res/layout/material_time_input.xml"
+            line="4"
+            column="5"/>
+    </issue>
+
+    <issue
+        id="MissingClass"
+        message="Class referenced in the layout file, `androidx.constraintlayout.helper.widget.Flow`, was not found in the project or the libraries"
+        errorLine1="    &lt;androidx.constraintlayout.helper.widget.Flow android:orientation=&quot;vertical&quot; android:id=&quot;@id/material_clock_display_and_toggle&quot; android:layout_width=&quot;0.0dip&quot; android:layout_height=&quot;wrap_content&quot; android:layout_marginTop=&quot;20.0dip&quot; app:constraint_referenced_ids=&quot;material_clock_display,material_clock_period_toggle&quot; app:flow_verticalGap=&quot;@dimen/material_clock_period_toggle_vertical_gap&quot; app:layout_constraintBottom_toBottomOf=&quot;parent&quot; app:layout_constraintStart_toStartOf=&quot;parent&quot; app:layout_constraintTop_toTopOf=&quot;parent&quot; />"
+        errorLine2="    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="res/layout-land/material_timepicker.xml"
+            line="4"
+            column="5"/>
+    </issue>
+
+    <issue
+        id="MissingClass"
+        message="Class referenced in the layout file, `androidx.constraintlayout.helper.widget.Flow`, was not found in the project or the libraries"
+        errorLine1="    &lt;androidx.constraintlayout.helper.widget.Flow android:orientation=&quot;horizontal&quot; android:id=&quot;@id/material_clock_display_and_toggle&quot; android:layout_width=&quot;0.0dip&quot; android:layout_height=&quot;@dimen/material_clock_period_toggle_height&quot; app:constraint_referenced_ids=&quot;material_clock_display,material_clock_period_toggle&quot; app:flow_horizontalGap=&quot;@dimen/material_clock_period_toggle_horizontal_gap&quot; app:layout_constraintEnd_toEndOf=&quot;parent&quot; app:layout_constraintStart_toStartOf=&quot;parent&quot; app:layout_constraintTop_toTopOf=&quot;parent&quot; />"
+        errorLine2="    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="res/layout/material_timepicker.xml"
+            line="4"
+            column="5"/>
+    </issue>
+
+    <issue
+        id="MissingClass"
+        message="Class referenced in the layout file, `com.google.android.material.timepicker.ClockFaceView`, was not found in the project or the libraries"
+        errorLine1="    &lt;com.google.android.material.timepicker.ClockFaceView android:id=&quot;@id/material_clock_face&quot; android:layout_width=&quot;wrap_content&quot; android:layout_height=&quot;wrap_content&quot; android:layout_marginStart=&quot;@dimen/clock_face_margin_start&quot; app:layout_constraintStart_toEndOf=&quot;@id/material_clock_display_and_toggle&quot; app:layout_constraintTop_toTopOf=&quot;parent&quot; />"
+        errorLine2="    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="res/layout-land/material_timepicker.xml"
+            line="7"
+            column="5"/>
+    </issue>
+
+    <issue
+        id="MissingClass"
+        message="Class referenced in the layout file, `com.google.android.material.timepicker.ClockFaceView`, was not found in the project or the libraries"
+        errorLine1="    &lt;com.google.android.material.timepicker.ClockFaceView android:layout_gravity=&quot;center&quot; android:id=&quot;@id/material_clock_face&quot; android:layout_width=&quot;wrap_content&quot; android:layout_height=&quot;wrap_content&quot; android:layout_marginTop=&quot;28.0dip&quot; app:layout_constraintEnd_toEndOf=&quot;parent&quot; app:layout_constraintStart_toStartOf=&quot;parent&quot; app:layout_constraintTop_toBottomOf=&quot;@id/material_clock_display_and_toggle&quot; />"
+        errorLine2="    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="res/layout/material_timepicker.xml"
+            line="7"
+            column="5"/>
+    </issue>
+
+    <issue
+        id="MissingClass"
+        message="Class referenced in the layout file, `androidx.constraintlayout.widget.ConstraintLayout`, was not found in the project or the libraries"
+        errorLine1="&lt;androidx.constraintlayout.widget.ConstraintLayout android:paddingBottom=&quot;2.0dip&quot; android:layout_width=&quot;wrap_content&quot; android:layout_height=&quot;wrap_content&quot; android:accessibilityPaneTitle=&quot;@string/material_timepicker_select_time&quot;"
+        errorLine2="^">
+        <location
+            file="res/layout/material_timepicker_dialog.xml"
+            line="2"
+            column="1"/>
+    </issue>
+
+    <issue
+        id="MissingClass"
+        message="Class referenced in the layout file, `com.google.android.material.timepicker.TimePickerView`, was not found in the project or the libraries"
+        errorLine1="    &lt;com.google.android.material.timepicker.TimePickerView android:id=&quot;@id/material_timepicker_view&quot; android:visibility=&quot;gone&quot; android:layout_width=&quot;wrap_content&quot; android:layout_height=&quot;wrap_content&quot; android:layout_marginLeft=&quot;24.0dip&quot; android:layout_marginTop=&quot;@dimen/material_clock_face_margin_top&quot; android:layout_marginRight=&quot;24.0dip&quot; android:layout_marginBottom=&quot;@dimen/material_clock_face_margin_bottom&quot; app:layout_constraintBottom_toTopOf=&quot;@id/material_timepicker_mode_button&quot; app:layout_constraintEnd_toEndOf=&quot;parent&quot; app:layout_constraintStart_toStartOf=&quot;parent&quot; app:layout_constraintTop_toTopOf=&quot;parent&quot; />"
+        errorLine2="    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="res/layout/material_timepicker_dialog.xml"
+            line="5"
+            column="5"/>
+    </issue>
+
+    <issue
+        id="MissingClass"
+        message="Class referenced in the layout file, `com.google.android.material.button.MaterialButton`, was not found in the project or the libraries"
+        errorLine1="    &lt;com.google.android.material.button.MaterialButton android:id=&quot;@id/material_timepicker_mode_button&quot; android:layout_width=&quot;wrap_content&quot; android:layout_height=&quot;wrap_content&quot; android:layout_marginStart=&quot;12.0dip&quot; app:layout_constraintBottom_toBottomOf=&quot;parent&quot; app:layout_constraintStart_toStartOf=&quot;parent&quot; style=&quot;?imageButtonStyle&quot; />"
+        errorLine2="    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="res/layout/material_timepicker_dialog.xml"
+            line="7"
+            column="5"/>
+    </issue>
+
+    <issue
+        id="MissingClass"
+        message="Class referenced in the layout file, `androidx.appcompat.widget.AlertDialogLayout`, was not found in the project or the libraries"
+        errorLine1="&lt;androidx.appcompat.widget.AlertDialogLayout android:gravity=&quot;start|center|top&quot; android:orientation=&quot;vertical&quot; android:id=&quot;@id/parentPanel&quot; android:layout_width=&quot;fill_parent&quot; android:layout_height=&quot;wrap_content&quot;"
+        errorLine2="^">
+        <location
+            file="res/layout/mtrl_alert_dialog.xml"
+            line="2"
+            column="1"/>
+    </issue>
+
+    <issue
+        id="MissingClass"
+        message="Class referenced in the layout file, `androidx.core.widget.NestedScrollView`, was not found in the project or the libraries"
+        errorLine1="        &lt;androidx.core.widget.NestedScrollView android:id=&quot;@id/scrollView&quot; android:clipToPadding=&quot;false&quot; android:layout_width=&quot;fill_parent&quot; android:layout_height=&quot;wrap_content&quot;>"
+        errorLine2="        ^">
+        <location
+            file="res/layout/mtrl_alert_dialog.xml"
+            line="7"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="MissingClass"
+        message="Class referenced in the layout file, `androidx.appcompat.widget.ButtonBarLayout`, was not found in the project or the libraries"
+        errorLine1="    &lt;androidx.appcompat.widget.ButtonBarLayout android:gravity=&quot;bottom&quot; android:orientation=&quot;horizontal&quot; android:paddingLeft=&quot;8.0dip&quot; android:paddingTop=&quot;2.0dip&quot; android:paddingRight=&quot;8.0dip&quot; android:paddingBottom=&quot;2.0dip&quot; android:layout_width=&quot;fill_parent&quot; android:layout_height=&quot;wrap_content&quot; android:layoutDirection=&quot;locale&quot; android:paddingStart=&quot;8.0dip&quot; android:paddingEnd=&quot;8.0dip&quot; android:paddingHorizontal=&quot;8.0dip&quot; android:paddingVertical=&quot;2.0dip&quot;>"
+        errorLine2="    ^">
+        <location
+            file="res/layout/mtrl_alert_dialog_actions.xml"
+            line="4"
+            column="5"/>
+    </issue>
+
+    <issue
+        id="MissingClass"
+        message="Class referenced in the layout file, `androidx.appcompat.widget.DialogTitle`, was not found in the project or the libraries"
+        errorLine1="        &lt;androidx.appcompat.widget.DialogTitle android:id=&quot;@id/alertTitle&quot; style=&quot;?materialAlertDialogTitleTextStyle&quot; />"
+        errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="res/layout/mtrl_alert_dialog_title.xml"
+            line="6"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="MissingClass"
+        message="Class referenced in the layout file, `androidx.recyclerview.widget.RecyclerView`, was not found in the project or the libraries"
+        errorLine1="        &lt;androidx.recyclerview.widget.RecyclerView android:layout_gravity=&quot;center_horizontal&quot; android:id=&quot;@id/mtrl_calendar_year_selector_frame&quot; android:scrollbars=&quot;none&quot; android:layout_width=&quot;wrap_content&quot; android:layout_height=&quot;fill_parent&quot; />"
+        errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="res/layout/mtrl_calendar_horizontal.xml"
+            line="6"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="MissingClass"
+        message="Class referenced in the layout file, `com.google.android.material.datepicker.MaterialCalendarGridView`, was not found in the project or the libraries"
+        errorLine1="&lt;com.google.android.material.datepicker.MaterialCalendarGridView android:gravity=&quot;center&quot; android:id=&quot;@id/month_grid&quot; android:addStatesFromChildren=&quot;false&quot; android:descendantFocusability=&quot;afterDescendants&quot; android:layout_width=&quot;fill_parent&quot; android:layout_height=&quot;fill_parent&quot; android:listSelector=&quot;@android:color/transparent&quot; android:horizontalSpacing=&quot;@dimen/mtrl_calendar_month_horizontal_padding&quot; android:verticalSpacing=&quot;@dimen/mtrl_calendar_month_vertical_padding&quot; android:defaultFocusHighlightEnabled=&quot;false&quot;"
+        errorLine2="^">
+        <location
+            file="res/layout-v26/mtrl_calendar_month.xml"
+            line="2"
+            column="1"/>
+    </issue>
+
+    <issue
+        id="MissingClass"
+        message="Class referenced in the layout file, `com.google.android.material.datepicker.MaterialCalendarGridView`, was not found in the project or the libraries"
+        errorLine1="&lt;com.google.android.material.datepicker.MaterialCalendarGridView android:gravity=&quot;center&quot; android:id=&quot;@id/month_grid&quot; android:addStatesFromChildren=&quot;false&quot; android:descendantFocusability=&quot;afterDescendants&quot; android:layout_width=&quot;fill_parent&quot; android:layout_height=&quot;wrap_content&quot; android:listSelector=&quot;@android:color/transparent&quot; android:horizontalSpacing=&quot;@dimen/mtrl_calendar_month_horizontal_padding&quot; android:verticalSpacing=&quot;@dimen/mtrl_calendar_month_vertical_padding&quot;"
+        errorLine2="^">
+        <location
+            file="res/layout/mtrl_calendar_month.xml"
+            line="2"
+            column="1"/>
+    </issue>
+
+    <issue
+        id="MissingClass"
+        message="Class referenced in the layout file, `com.google.android.material.button.MaterialButton`, was not found in the project or the libraries"
+        errorLine1="        &lt;com.google.android.material.button.MaterialButton android:gravity=&quot;start|center&quot; android:layout_gravity=&quot;start&quot; android:id=&quot;@id/month_navigation_fragment_toggle&quot; android:layout_width=&quot;wrap_content&quot; android:layout_height=&quot;@dimen/mtrl_calendar_navigation_height&quot; android:insetTop=&quot;0.0dip&quot; android:insetBottom=&quot;0.0dip&quot; app:icon=&quot;@drawable/material_ic_menu_arrow_down_black_24dp&quot; app:iconGravity=&quot;textEnd&quot; app:iconPadding=&quot;4.0dip&quot; style=&quot;?materialCalendarYearNavigationButton&quot; />"
+        errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="res/layout/mtrl_calendar_month_navigation.xml"
+            line="5"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="MissingClass"
+        message="Class referenced in the layout file, `com.google.android.material.button.MaterialButton`, was not found in the project or the libraries"
+        errorLine1="    &lt;com.google.android.material.button.MaterialButton android:gravity=&quot;center&quot; android:id=&quot;@id/month_navigation_previous&quot; android:layout_width=&quot;@dimen/mtrl_min_touch_target_size&quot; android:layout_height=&quot;@dimen/mtrl_calendar_navigation_height&quot; android:insetTop=&quot;0.0dip&quot; android:insetBottom=&quot;0.0dip&quot; android:contentDescription=&quot;@string/mtrl_picker_a11y_prev_month&quot; app:icon=&quot;@drawable/material_ic_keyboard_arrow_previous_black_24dp&quot; style=&quot;?materialCalendarMonthNavigationButton&quot; />"
+        errorLine2="    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="res/layout/mtrl_calendar_month_navigation.xml"
+            line="7"
+            column="5"/>
+    </issue>
+
+    <issue
+        id="MissingClass"
+        message="Class referenced in the layout file, `com.google.android.material.button.MaterialButton`, was not found in the project or the libraries"
+        errorLine1="    &lt;com.google.android.material.button.MaterialButton android:gravity=&quot;center&quot; android:id=&quot;@id/month_navigation_next&quot; android:layout_width=&quot;@dimen/mtrl_min_touch_target_size&quot; android:layout_height=&quot;@dimen/mtrl_calendar_navigation_height&quot; android:insetTop=&quot;0.0dip&quot; android:insetBottom=&quot;0.0dip&quot; android:contentDescription=&quot;@string/mtrl_picker_a11y_next_month&quot; app:icon=&quot;@drawable/material_ic_keyboard_arrow_next_black_24dp&quot; style=&quot;?materialCalendarMonthNavigationButton&quot; />"
+        errorLine2="    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="res/layout/mtrl_calendar_month_navigation.xml"
+            line="8"
+            column="5"/>
+    </issue>
+
+    <issue
+        id="MissingClass"
+        message="Class referenced in the layout file, `androidx.recyclerview.widget.RecyclerView`, was not found in the project or the libraries"
+        errorLine1="&lt;androidx.recyclerview.widget.RecyclerView android:id=&quot;@id/mtrl_calendar_months&quot; android:layout_width=&quot;fill_parent&quot; android:layout_height=&quot;fill_parent&quot; android:listSelector=&quot;@android:color/transparent&quot;"
+        errorLine2="^">
+        <location
+            file="res/layout/mtrl_calendar_months.xml"
+            line="2"
+            column="1"/>
+    </issue>
+
+    <issue
+        id="MissingClass"
+        message="Class referenced in the layout file, `com.google.android.material.snackbar.Snackbar$SnackbarLayout`, was not found in the project or the libraries"
+        errorLine1="&lt;view android:layout_gravity=&quot;bottom|center&quot; android:layout_width=&quot;wrap_content&quot; android:layout_height=&quot;wrap_content&quot; class=&quot;com.google.android.material.snackbar.Snackbar$SnackbarLayout&quot; style=&quot;?snackbarStyle&quot;"
+        errorLine2="                                                                                                                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="res/layout-sw600dp/mtrl_layout_snackbar.xml"
+            line="2"
+            column="126"/>
+    </issue>
+
+    <issue
+        id="MissingClass"
+        message="Class referenced in the layout file, `com.google.android.material.snackbar.Snackbar$SnackbarLayout`, was not found in the project or the libraries"
+        errorLine1="&lt;view android:layout_gravity=&quot;bottom&quot; android:layout_width=&quot;fill_parent&quot; android:layout_height=&quot;wrap_content&quot; class=&quot;com.google.android.material.snackbar.Snackbar$SnackbarLayout&quot; style=&quot;?snackbarStyle&quot;"
+        errorLine2="                                                                                                                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="res/layout/mtrl_layout_snackbar.xml"
+            line="2"
+            column="118"/>
+    </issue>
+
+    <issue
+        id="MissingClass"
+        message="Class referenced in the layout file, `com.google.android.material.snackbar.SnackbarContentLayout`, was not found in the project or the libraries"
+        errorLine1="&lt;view android:layout_gravity=&quot;bottom&quot; android:layout_width=&quot;fill_parent&quot; android:layout_height=&quot;wrap_content&quot; class=&quot;com.google.android.material.snackbar.SnackbarContentLayout&quot;"
+        errorLine2="                                                                                                                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="res/layout/mtrl_layout_snackbar_include.xml"
+            line="2"
+            column="118"/>
+    </issue>
+
+    <issue
+        id="MissingClass"
+        message="Class referenced in the layout file, `com.google.android.material.internal.BaselineLayout`, was not found in the project or the libraries"
+        errorLine1="    &lt;com.google.android.material.internal.BaselineLayout android:layout_gravity=&quot;bottom|center&quot; android:id=&quot;@id/navigation_bar_item_labels_group&quot; android:paddingBottom=&quot;@dimen/mtrl_navigation_rail_text_bottom_margin&quot; android:duplicateParentState=&quot;true&quot; android:clipChildren=&quot;false&quot; android:clipToPadding=&quot;false&quot; android:layout_width=&quot;wrap_content&quot; android:layout_height=&quot;wrap_content&quot;>"
+        errorLine2="    ^">
+        <location
+            file="res/layout/mtrl_navigation_rail_item.xml"
+            line="8"
+            column="5"/>
+    </issue>
+
+    <issue
+        id="MissingClass"
+        message="Class referenced in the layout file, `androidx.fragment.app.FragmentContainerView`, was not found in the project or the libraries"
+        errorLine1="        &lt;androidx.fragment.app.FragmentContainerView android:id=&quot;@id/mtrl_calendar_frame&quot; android:paddingLeft=&quot;@dimen/mtrl_calendar_content_padding&quot; android:paddingRight=&quot;@dimen/mtrl_calendar_content_padding&quot; android:paddingBottom=&quot;@dimen/mtrl_calendar_bottom_padding&quot; android:layout_width=&quot;fill_parent&quot; android:layout_height=&quot;0.0dip&quot; android:layout_weight=&quot;1.0&quot; android:paddingStart=&quot;@dimen/mtrl_calendar_content_padding&quot; android:paddingEnd=&quot;@dimen/mtrl_calendar_content_padding&quot; />"
+        errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="res/layout/mtrl_picker_dialog.xml"
+            line="6"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="MissingClass"
+        message="Class referenced in the layout file, `androidx.fragment.app.FragmentContainerView`, was not found in the project or the libraries"
+        errorLine1="    &lt;androidx.fragment.app.FragmentContainerView android:id=&quot;@id/mtrl_calendar_frame&quot; android:paddingLeft=&quot;@dimen/mtrl_calendar_content_padding&quot; android:paddingRight=&quot;@dimen/mtrl_calendar_content_padding&quot; android:layout_width=&quot;fill_parent&quot; android:layout_height=&quot;wrap_content&quot; android:paddingStart=&quot;@dimen/mtrl_calendar_content_padding&quot; android:paddingEnd=&quot;@dimen/mtrl_calendar_content_padding&quot; />"
+        errorLine2="    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="res/layout/mtrl_picker_fullscreen.xml"
+            line="5"
+            column="5"/>
+    </issue>
+
+    <issue
+        id="MissingClass"
+        message="Class referenced in the layout file, `com.google.android.material.button.MaterialButton`, was not found in the project or the libraries"
+        errorLine1="        &lt;com.google.android.material.button.MaterialButton android:gravity=&quot;center&quot; android:layout_gravity=&quot;top&quot; android:id=&quot;@id/cancel_button&quot; android:padding=&quot;12.0dip&quot; android:layout_width=&quot;@dimen/mtrl_min_touch_target_size&quot; android:layout_height=&quot;@dimen/mtrl_min_touch_target_size&quot; android:insetTop=&quot;0.0dip&quot; android:insetBottom=&quot;0.0dip&quot; android:contentDescription=&quot;@string/mtrl_picker_cancel&quot; app:icon=&quot;@drawable/material_ic_clear_black_24dp&quot; style=&quot;?materialCalendarHeaderCancelButton&quot; />"
+        errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="res/layout/mtrl_picker_header_fullscreen.xml"
+            line="5"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="MissingClass"
+        message="Class referenced in the layout file, `com.google.android.material.button.MaterialButton`, was not found in the project or the libraries"
+        errorLine1="            &lt;com.google.android.material.button.MaterialButton android:layout_gravity=&quot;end|center|top&quot; android:id=&quot;@id/confirm_button&quot; android:layout_width=&quot;wrap_content&quot; android:layout_height=&quot;@dimen/mtrl_min_touch_target_size&quot; android:text=&quot;@string/mtrl_picker_save&quot; android:contentDescription=&quot;@string/mtrl_picker_save&quot; style=&quot;?materialCalendarHeaderConfirmButton&quot; />"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="res/layout/mtrl_picker_header_fullscreen.xml"
+            line="11"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="MissingClass"
+        message="Class referenced in the layout file, `com.google.android.material.internal.CheckableImageButton`, was not found in the project or the libraries"
+        errorLine1="&lt;com.google.android.material.internal.CheckableImageButton android:id=&quot;@id/mtrl_picker_header_toggle&quot; android:layout_width=&quot;@dimen/mtrl_min_touch_target_size&quot; android:layout_height=&quot;@dimen/mtrl_min_touch_target_size&quot; android:layout_marginTop=&quot;@dimen/mtrl_calendar_header_toggle_margin_top&quot; android:layout_marginBottom=&quot;@dimen/mtrl_calendar_header_toggle_margin_bottom&quot; style=&quot;?materialCalendarHeaderToggleButton&quot;"
+        errorLine2="^">
+        <location
+            file="res/layout/mtrl_picker_header_toggle.xml"
+            line="2"
+            column="1"/>
+    </issue>
+
+    <issue
+        id="MissingClass"
+        message="Class referenced in the layout file, `com.google.android.material.textfield.TextInputLayout`, was not found in the project or the libraries"
+        errorLine1="    &lt;com.google.android.material.textfield.TextInputLayout android:id=&quot;@id/mtrl_picker_text_input_date&quot; android:layout_width=&quot;fill_parent&quot; android:layout_height=&quot;wrap_content&quot;>"
+        errorLine2="    ^">
+        <location
+            file="res/layout/mtrl_picker_text_input_date.xml"
+            line="4"
+            column="5"/>
+    </issue>
+
+    <issue
+        id="MissingClass"
+        message="Class referenced in the layout file, `com.google.android.material.textfield.TextInputEditText`, was not found in the project or the libraries"
+        errorLine1="        &lt;com.google.android.material.textfield.TextInputEditText android:layout_width=&quot;fill_parent&quot; android:layout_height=&quot;wrap_content&quot; android:hint=&quot;@string/mtrl_picker_text_input_date_hint&quot; android:inputType=&quot;date&quot; android:imeOptions=&quot;flagNoExtractUi&quot; />"
+        errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="res/layout/mtrl_picker_text_input_date.xml"
+            line="5"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="MissingClass"
+        message="Class referenced in the layout file, `com.google.android.material.textfield.TextInputLayout`, was not found in the project or the libraries"
+        errorLine1="        &lt;com.google.android.material.textfield.TextInputLayout android:id=&quot;@id/mtrl_picker_text_input_range_start&quot; android:layout_width=&quot;fill_parent&quot; android:layout_height=&quot;wrap_content&quot; android:layout_weight=&quot;1.0&quot;>"
+        errorLine2="        ^">
+        <location
+            file="res/layout/mtrl_picker_text_input_date_range.xml"
+            line="5"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="MissingClass"
+        message="Class referenced in the layout file, `com.google.android.material.textfield.TextInputEditText`, was not found in the project or the libraries"
+        errorLine1="            &lt;com.google.android.material.textfield.TextInputEditText android:layout_width=&quot;fill_parent&quot; android:layout_height=&quot;wrap_content&quot; android:hint=&quot;@string/mtrl_picker_text_input_date_range_start_hint&quot; android:inputType=&quot;date&quot; android:imeOptions=&quot;flagNoExtractUi&quot; />"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="res/layout/mtrl_picker_text_input_date_range.xml"
+            line="6"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="MissingClass"
+        message="Class referenced in the layout file, `com.google.android.material.textfield.TextInputLayout`, was not found in the project or the libraries"
+        errorLine1="        &lt;com.google.android.material.textfield.TextInputLayout android:id=&quot;@id/mtrl_picker_text_input_range_end&quot; android:layout_width=&quot;fill_parent&quot; android:layout_height=&quot;wrap_content&quot; android:layout_weight=&quot;1.0&quot;>"
+        errorLine2="        ^">
+        <location
+            file="res/layout/mtrl_picker_text_input_date_range.xml"
+            line="9"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="MissingClass"
+        message="Class referenced in the layout file, `com.google.android.material.textfield.TextInputEditText`, was not found in the project or the libraries"
+        errorLine1="            &lt;com.google.android.material.textfield.TextInputEditText android:layout_width=&quot;fill_parent&quot; android:layout_height=&quot;wrap_content&quot; android:hint=&quot;@string/mtrl_picker_text_input_date_range_end_hint&quot; android:inputType=&quot;date&quot; android:imeOptions=&quot;flagNoExtractUi&quot; />"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="res/layout/mtrl_picker_text_input_date_range.xml"
+            line="10"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="MissingClass"
+        message="Class referenced in the layout file, `com.google.android.material.internal.ClippableRoundedCornerLayout`, was not found in the project or the libraries"
+        errorLine1="    &lt;com.google.android.material.internal.ClippableRoundedCornerLayout android:id=&quot;@id/open_search_view_root&quot; android:focusable=&quot;true&quot; android:focusableInTouchMode=&quot;true&quot; android:visibility=&quot;gone&quot; android:layout_width=&quot;fill_parent&quot; android:layout_height=&quot;fill_parent&quot;>"
+        errorLine2="    ^">
+        <location
+            file="res/layout/mtrl_search_view.xml"
+            line="5"
+            column="5"/>
+    </issue>
+
+    <issue
+        id="MissingClass"
+        message="Class referenced in the layout file, `com.google.android.material.appbar.MaterialToolbar`, was not found in the project or the libraries"
+        errorLine1="                &lt;com.google.android.material.appbar.MaterialToolbar android:layout_gravity=&quot;end&quot; android:id=&quot;@id/open_search_view_dummy_toolbar&quot; android:visibility=&quot;gone&quot; android:layout_width=&quot;wrap_content&quot; android:layout_height=&quot;wrap_content&quot; app:navigationIcon=&quot;@null&quot; style=&quot;?materialSearchViewToolbarStyle&quot; />"
+        errorLine2="                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="res/layout/mtrl_search_view.xml"
+            line="10"
+            column="17"/>
+    </issue>
+
+    <issue
+        id="MissingClass"
+        message="Class referenced in the layout file, `com.google.android.material.appbar.MaterialToolbar`, was not found in the project or the libraries"
+        errorLine1="                &lt;com.google.android.material.appbar.MaterialToolbar android:id=&quot;@id/open_search_view_toolbar&quot; android:clipChildren=&quot;false&quot; android:layout_width=&quot;fill_parent&quot; android:layout_height=&quot;wrap_content&quot; app:navigationContentDescription=&quot;@string/searchview_navigation_content_description&quot; style=&quot;?materialSearchViewToolbarStyle&quot;>"
+        errorLine2="                ^">
+        <location
+            file="res/layout/mtrl_search_view.xml"
+            line="11"
+            column="17"/>
+    </issue>
+
+    <issue
+        id="MissingClass"
+        message="Class referenced in the layout file, `com.google.android.material.internal.TouchObserverFrameLayout`, was not found in the project or the libraries"
+        errorLine1="            &lt;com.google.android.material.internal.TouchObserverFrameLayout android:id=&quot;@id/open_search_view_content_container&quot; android:layout_width=&quot;fill_parent&quot; android:layout_height=&quot;fill_parent&quot; />"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="res/layout/mtrl_search_view.xml"
+            line="20"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="ResourceCycle"
+        message="Potential cycle: `Base.Widget.AppCompat.DrawerArrowToggle` is the implied parent of `Base.Widget.AppCompat.DrawerArrowToggle.Common` and this defines the opposite"
+        errorLine1="    &lt;style name=&quot;Base.Widget.AppCompat.DrawerArrowToggle&quot; parent=&quot;@style/Base.Widget.AppCompat.DrawerArrowToggle.Common&quot;>"
+        errorLine2="                                                          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="res/values-hdpi/styles.xml"
+            line="3"
+            column="59"/>
+    </issue>
+
+    <issue
+        id="ResourceCycle"
+        message="Potential cycle: `Base.V14.Theme.MaterialComponents` is the implied parent of `Base.V14.Theme.MaterialComponents.Bridge` and this defines the opposite"
+        errorLine1="    &lt;style name=&quot;Base.V14.Theme.MaterialComponents&quot; parent=&quot;@style/Base.V14.Theme.MaterialComponents.Bridge&quot;>"
+        errorLine2="                                                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="res/values/styles.xml"
+            line="1325"
+            column="53"/>
+    </issue>
+
+    <issue
+        id="ResourceCycle"
+        message="Potential cycle: `Base.V14.Theme.MaterialComponents.Dialog` is the implied parent of `Base.V14.Theme.MaterialComponents.Dialog.Bridge` and this defines the opposite"
+        errorLine1="    &lt;style name=&quot;Base.V14.Theme.MaterialComponents.Dialog&quot; parent=&quot;@style/Base.V14.Theme.MaterialComponents.Dialog.Bridge&quot;>"
+        errorLine2="                                                           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="res/values/styles.xml"
+            line="1436"
+            column="60"/>
+    </issue>
+
+    <issue
+        id="ResourceCycle"
+        message="Potential cycle: `Base.V14.Theme.MaterialComponents.Light` is the implied parent of `Base.V14.Theme.MaterialComponents.Light.Bridge` and this defines the opposite"
+        errorLine1="    &lt;style name=&quot;Base.V14.Theme.MaterialComponents.Light&quot; parent=&quot;@style/Base.V14.Theme.MaterialComponents.Light.Bridge&quot;>"
+        errorLine2="                                                          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="res/values/styles.xml"
+            line="1540"
+            column="59"/>
+    </issue>
+
+    <issue
+        id="ResourceCycle"
+        message="Potential cycle: `Base.V14.Theme.MaterialComponents.Light.Dialog` is the implied parent of `Base.V14.Theme.MaterialComponents.Light.Dialog.Bridge` and this defines the opposite"
+        errorLine1="    &lt;style name=&quot;Base.V14.Theme.MaterialComponents.Light.Dialog&quot; parent=&quot;@style/Base.V14.Theme.MaterialComponents.Light.Dialog.Bridge&quot;>"
+        errorLine2="                                                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="res/values/styles.xml"
+            line="1696"
+            column="66"/>
+    </issue>
+
+    <issue
+        id="ResourceCycle"
+        message="Potential cycle: `Base.Widget.AppCompat.DrawerArrowToggle` is the implied parent of `Base.Widget.AppCompat.DrawerArrowToggle.Common` and this defines the opposite"
+        errorLine1="    &lt;style name=&quot;Base.Widget.AppCompat.DrawerArrowToggle&quot; parent=&quot;@style/Base.Widget.AppCompat.DrawerArrowToggle.Common&quot;>"
+        errorLine2="                                                          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="res/values/styles.xml"
+            line="2425"
+            column="59"/>
+    </issue>
+
+    <issue
+        id="MissingDefaultResource"
+        message="The layout &quot;material_clock_period_toggle_land&quot; in layout-land has no declaration in the base `layout` folder; this can lead to crashes when the resource is queried in a configuration that does not match this qualifier"
+        errorLine1="&lt;com.google.android.material.button.MaterialButtonToggleGroup android:orientation=&quot;horizontal&quot; android:id=&quot;@id/material_clock_period_toggle&quot; android:visibility=&quot;gone&quot; android:layout_width=&quot;wrap_content&quot; android:layout_height=&quot;wrap_content&quot; app:checkedButton=&quot;@id/material_clock_period_am_button&quot; app:selectionRequired=&quot;true&quot; app:singleSelection=&quot;true&quot;"
+        errorLine2=" ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="res/layout-land/material_clock_period_toggle_land.xml"
+            line="2"
+            column="2"/>
+    </issue>
+
+    <issue
+        id="MissingPrefix"
+        message="Attribute is missing the Android namespace prefix"
+        errorLine1="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot; standalone=&quot;no&quot;?>&lt;manifest xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot; android:compileSdkVersion=&quot;34&quot; android:compileSdkVersionCodename=&quot;14&quot; package=&quot;com.example.encryptor&quot; platformBuildVersionCode=&quot;34&quot; platformBuildVersionName=&quot;14&quot;>"
+        errorLine2="                                                                                                                                                                                                                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="AndroidManifest.xml"
+            line="1"
+            column="226"/>
+    </issue>
+
+    <issue
+        id="MissingPrefix"
+        message="Attribute is missing the Android namespace prefix"
+        errorLine1="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot; standalone=&quot;no&quot;?>&lt;manifest xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot; android:compileSdkVersion=&quot;34&quot; android:compileSdkVersionCodename=&quot;14&quot; package=&quot;com.example.encryptor&quot; platformBuildVersionCode=&quot;34&quot; platformBuildVersionName=&quot;14&quot;>"
+        errorLine2="                                                                                                                                                                                                                                                               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="AndroidManifest.xml"
+            line="1"
+            column="256"/>
+    </issue>
+
+    <issue
+        id="SpUsage"
+        message="Should use &quot;`sp`&quot; instead of &quot;`dp`&quot; for text sizes (`@dimen/mtrl_navigation_rail_text_size` is defined as `12.0dip` in `values/dimens.xml`"
+        errorLine1="        &lt;TextView android:textSize=&quot;@dimen/mtrl_navigation_rail_text_size&quot; android:ellipsize=&quot;end&quot; android:id=&quot;@id/navigation_bar_item_small_label_view&quot; android:duplicateParentState=&quot;true&quot; android:layout_width=&quot;wrap_content&quot; android:layout_height=&quot;wrap_content&quot; android:maxLines=&quot;1&quot; />"
+        errorLine2="                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="res/layout/mtrl_navigation_rail_item.xml"
+            line="9"
+            column="19"/>
+        <location
+            file="res/values/dimens.xml"
+            line="720"
+            column="50"
+            message="This dp dimension is used as a text size"/>
+    </issue>
+
+    <issue
+        id="SpUsage"
+        message="Should use &quot;`sp`&quot; instead of &quot;`dp`&quot; for text sizes (`@dimen/mtrl_navigation_rail_active_text_size` is defined as `14.0dip` in `values/dimens.xml`"
+        errorLine1="        &lt;TextView android:textSize=&quot;@dimen/mtrl_navigation_rail_active_text_size&quot; android:ellipsize=&quot;end&quot; android:id=&quot;@id/navigation_bar_item_large_label_view&quot; android:visibility=&quot;invisible&quot; android:duplicateParentState=&quot;true&quot; android:layout_width=&quot;wrap_content&quot; android:layout_height=&quot;wrap_content&quot; android:maxLines=&quot;1&quot; />"
+        errorLine2="                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="res/layout/mtrl_navigation_rail_item.xml"
+            line="10"
+            column="19"/>
+        <location
+            file="res/values/dimens.xml"
+            line="712"
+            column="57"
+            message="This dp dimension is used as a text size"/>
+    </issue>
+
+    <issue
+        id="SpUsage"
+        message="Should use &quot;`sp`&quot; instead of &quot;`dp`&quot; for text sizes"
+        errorLine1="        &lt;item name=&quot;android:textSize&quot;>56.0dip&lt;/item>"
+        errorLine2="                                      ~~~~~~~">
+        <location
+            file="res/values/styles.xml"
+            line="5138"
+            column="39"/>
+    </issue>
+
+    <issue
+        id="SpUsage"
+        message="Should use &quot;`sp`&quot; instead of &quot;`dp`&quot; for text sizes"
+        errorLine1="        &lt;item name=&quot;android:textSize&quot;>56.0dip&lt;/item>"
+        errorLine2="                                      ~~~~~~~">
+        <location
+            file="res/values/styles.xml"
+            line="6116"
+            column="39"/>
+    </issue>
+
+    <issue
+        id="SpUsage"
+        message="Should use &quot;`sp`&quot; instead of &quot;`dp`&quot; for text sizes"
+        errorLine1="        &lt;item name=&quot;android:textSize&quot;>56.0dip&lt;/item>"
+        errorLine2="                                      ~~~~~~~">
+        <location
+            file="res/values/styles.xml"
+            line="6124"
+            column="39"/>
+    </issue>
+
+    <issue
+        id="SpUsage"
+        message="Should use &quot;`sp`&quot; instead of &quot;`dp`&quot; for text sizes"
+        errorLine1="        &lt;item name=&quot;android:textSize&quot;>56.0dip&lt;/item>"
+        errorLine2="                                      ~~~~~~~">
+        <location
+            file="res/values/styles.xml"
+            line="6136"
+            column="39"/>
+    </issue>
+
+    <issue
+        id="MissingVersion"
+        message="Should set `android:versionCode` to specify the application version"
+        errorLine1="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot; standalone=&quot;no&quot;?>&lt;manifest xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot; android:compileSdkVersion=&quot;34&quot; android:compileSdkVersionCodename=&quot;14&quot; package=&quot;com.example.encryptor&quot; platformBuildVersionCode=&quot;34&quot; platformBuildVersionName=&quot;14&quot;>"
+        errorLine2="                                                       ~~~~~~~~">
+        <location
+            file="AndroidManifest.xml"
+            line="1"
+            column="56"/>
+    </issue>
+
+    <issue
+        id="MissingVersion"
+        message="Should set `android:versionName` to specify the application version"
+        errorLine1="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot; standalone=&quot;no&quot;?>&lt;manifest xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot; android:compileSdkVersion=&quot;34&quot; android:compileSdkVersionCodename=&quot;14&quot; package=&quot;com.example.encryptor&quot; platformBuildVersionCode=&quot;34&quot; platformBuildVersionName=&quot;14&quot;>"
+        errorLine2="                                                       ~~~~~~~~">
+        <location
+            file="AndroidManifest.xml"
+            line="1"
+            column="56"/>
+    </issue>
+
+    <issue
+        id="PxUsage"
+        message="Avoid using &quot;`px`&quot; as units; use &quot;`dp`&quot; instead"
+        errorLine1="    &lt;Button android:id=&quot;@id/dialog_button&quot; android:layout_width=&quot;100.0px&quot; android:layout_height=&quot;wrap_content&quot; android:layout_marginTop=&quot;5.0dip&quot; android:layout_marginRight=&quot;5.0dip&quot; android:text=&quot; Ok &quot; />"
+        errorLine2="                                           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="res/layout/custom_dialog.xml"
+            line="4"
+            column="44"/>
+    </issue>
+
+    <issue
+        id="PxUsage"
+        message="Avoid using &quot;`px`&quot; as units; use &quot;`dp`&quot; instead"
+        errorLine1="    &lt;View android:id=&quot;@id/circle_center&quot; android:layout_width=&quot;1.0px&quot; android:layout_height=&quot;1.0px&quot; app:layout_constraintBottom_toBottomOf=&quot;parent&quot; app:layout_constraintEnd_toEndOf=&quot;parent&quot; app:layout_constraintStart_toStartOf=&quot;parent&quot; app:layout_constraintTop_toTopOf=&quot;parent&quot; />"
+        errorLine2="                                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="res/layout/material_radial_view_group.xml"
+            line="4"
+            column="42"/>
+    </issue>
+
+    <issue
+        id="PxUsage"
+        message="Avoid using &quot;`px`&quot; as units; use &quot;`dp`&quot; instead"
+        errorLine1="    &lt;View android:id=&quot;@id/circle_center&quot; android:layout_width=&quot;1.0px&quot; android:layout_height=&quot;1.0px&quot; app:layout_constraintBottom_toBottomOf=&quot;parent&quot; app:layout_constraintEnd_toEndOf=&quot;parent&quot; app:layout_constraintStart_toStartOf=&quot;parent&quot; app:layout_constraintTop_toTopOf=&quot;parent&quot; />"
+        errorLine2="                                                                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="res/layout/material_radial_view_group.xml"
+            line="4"
+            column="71"/>
+    </issue>
+
+    <issue
+        id="PxUsage"
+        message="Avoid using `&quot;px&quot;` as units; use `&quot;dp&quot;` instead"
+        errorLine1="        &lt;item name=&quot;android:dropDownVerticalOffset&quot;>1.0px&lt;/item>"
+        errorLine2="                                                    ~~~~~">
+        <location
+            file="res/values/styles.xml"
+            line="2767"
+            column="53"/>
+    </issue>
+
+    <issue
+        id="PxUsage"
+        message="Avoid using `&quot;px&quot;` as units; use `&quot;dp&quot;` instead"
+        errorLine1="        &lt;item name=&quot;android:dropDownVerticalOffset&quot;>1.0px&lt;/item>"
+        errorLine2="                                                    ~~~~~">
+        <location
+            file="res/values/styles.xml"
+            line="2779"
+            column="53"/>
+    </issue>
+
+    <issue
+        id="MissingQuantity"
+        message="For locale &quot;ca&quot; (Catalan) the following quantity should also be defined: `many`"
+        errorLine1="    &lt;plurals name=&quot;mtrl_badge_content_description&quot;>"
+        errorLine2="    ^">
+        <location
+            file="res/values-ca/plurals.xml"
+            line="3"
+            column="5"/>
+    </issue>
+
+    <issue
+        id="MissingQuantity"
+        message="For locale &quot;es&quot; (Spanish) the following quantity should also be defined: `many`"
+        errorLine1="    &lt;plurals name=&quot;mtrl_badge_content_description&quot;>"
+        errorLine2="    ^">
+        <location
+            file="res/values-b+es+419/plurals.xml"
+            line="3"
+            column="5"/>
+    </issue>
+
+    <issue
+        id="MissingQuantity"
+        message="For locale &quot;es&quot; (Spanish) the following quantity should also be defined: `many`"
+        errorLine1="    &lt;plurals name=&quot;mtrl_badge_content_description&quot;>"
+        errorLine2="    ^">
+        <location
+            file="res/values-es-rUS/plurals.xml"
+            line="3"
+            column="5"/>
+    </issue>
+
+    <issue
+        id="MissingQuantity"
+        message="For locale &quot;es&quot; (Spanish) the following quantity should also be defined: `many`"
+        errorLine1="    &lt;plurals name=&quot;mtrl_badge_content_description&quot;>"
+        errorLine2="    ^">
+        <location
+            file="res/values-es/plurals.xml"
+            line="3"
+            column="5"/>
+    </issue>
+
+    <issue
+        id="MissingQuantity"
+        message="For locale &quot;fr&quot; (French) the following quantity should also be defined: `many` (e.g. &quot;1000000 de jours&quot;)"
+        errorLine1="    &lt;plurals name=&quot;mtrl_badge_content_description&quot;>"
+        errorLine2="    ^">
+        <location
+            file="res/values-fr-rCA/plurals.xml"
+            line="3"
+            column="5"/>
+    </issue>
+
+    <issue
+        id="MissingQuantity"
+        message="For locale &quot;fr&quot; (French) the following quantity should also be defined: `many` (e.g. &quot;1000000 de jours&quot;)"
+        errorLine1="    &lt;plurals name=&quot;mtrl_badge_content_description&quot;>"
+        errorLine2="    ^">
+        <location
+            file="res/values-fr/plurals.xml"
+            line="3"
+            column="5"/>
+    </issue>
+
+    <issue
+        id="MissingQuantity"
+        message="For locale &quot;it&quot; (Italian) the following quantity should also be defined: `many`"
+        errorLine1="    &lt;plurals name=&quot;mtrl_badge_content_description&quot;>"
+        errorLine2="    ^">
+        <location
+            file="res/values-it/plurals.xml"
+            line="3"
+            column="5"/>
+    </issue>
+
+    <issue
+        id="MissingQuantity"
+        message="For locale &quot;pt&quot; (Portuguese) the following quantity should also be defined: `many`"
+        errorLine1="    &lt;plurals name=&quot;mtrl_badge_content_description&quot;>"
+        errorLine2="    ^">
+        <location
+            file="res/values-pt-rBR/plurals.xml"
+            line="3"
+            column="5"/>
+    </issue>
+
+    <issue
+        id="MissingQuantity"
+        message="For locale &quot;pt&quot; (Portuguese) the following quantity should also be defined: `many`"
+        errorLine1="    &lt;plurals name=&quot;mtrl_badge_content_description&quot;>"
+        errorLine2="    ^">
+        <location
+            file="res/values-pt-rPT/plurals.xml"
+            line="3"
+            column="5"/>
+    </issue>
+
+    <issue
+        id="PluralsCandidate"
+        message="Formatting %d followed by words (&quot;new&quot;): This should probably be a plural rather than a string"
+        errorLine1="    &lt;string name=&quot;mtrl_exceed_max_badge_number_content_description&quot;>More than %1$d new notifications&lt;/string>"
+        errorLine2="    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="res/values-en-rGB/strings.xml"
+            line="57"
+            column="5"/>
+    </issue>
+
+    <issue
+        id="UnusedQuantity"
+        message="For language &quot;in&quot; (Indonesian) the following quantities are not relevant: `one`"
+        errorLine1="    &lt;plurals name=&quot;mtrl_badge_content_description&quot;>"
+        errorLine2="    ^">
+        <location
+            file="res/values-in/plurals.xml"
+            line="3"
+            column="5"/>
+    </issue>
+
+    <issue
+        id="UnusedQuantity"
+        message="For language &quot;ja&quot; (Japanese) the following quantities are not relevant: `one`"
+        errorLine1="    &lt;plurals name=&quot;mtrl_badge_content_description&quot;>"
+        errorLine2="    ^">
+        <location
+            file="res/values-ja/plurals.xml"
+            line="3"
+            column="5"/>
+    </issue>
+
+    <issue
+        id="UnusedQuantity"
+        message="For language &quot;km&quot; (Khmer) the following quantities are not relevant: `one`"
+        errorLine1="    &lt;plurals name=&quot;mtrl_badge_content_description&quot;>"
+        errorLine2="    ^">
+        <location
+            file="res/values-km/plurals.xml"
+            line="3"
+            column="5"/>
+    </issue>
+
+    <issue
+        id="UnusedQuantity"
+        message="For language &quot;ko&quot; (Korean) the following quantities are not relevant: `one`"
+        errorLine1="    &lt;plurals name=&quot;mtrl_badge_content_description&quot;>"
+        errorLine2="    ^">
+        <location
+            file="res/values-ko/plurals.xml"
+            line="3"
+            column="5"/>
+    </issue>
+
+    <issue
+        id="UnusedQuantity"
+        message="For language &quot;lo&quot; (Lao) the following quantities are not relevant: `one`"
+        errorLine1="    &lt;plurals name=&quot;mtrl_badge_content_description&quot;>"
+        errorLine2="    ^">
+        <location
+            file="res/values-lo/plurals.xml"
+            line="3"
+            column="5"/>
+    </issue>
+
+    <issue
+        id="UnusedQuantity"
+        message="For language &quot;ms&quot; (Malay) the following quantities are not relevant: `one`"
+        errorLine1="    &lt;plurals name=&quot;mtrl_badge_content_description&quot;>"
+        errorLine2="    ^">
+        <location
+            file="res/values-ms/plurals.xml"
+            line="3"
+            column="5"/>
+    </issue>
+
+    <issue
+        id="UnusedQuantity"
+        message="For language &quot;my&quot; (Burmese) the following quantities are not relevant: `one`"
+        errorLine1="    &lt;plurals name=&quot;mtrl_badge_content_description&quot;>"
+        errorLine2="    ^">
+        <location
+            file="res/values-my/plurals.xml"
+            line="3"
+            column="5"/>
+    </issue>
+
+    <issue
+        id="UnusedQuantity"
+        message="For language &quot;th&quot; (Thai) the following quantities are not relevant: `one`"
+        errorLine1="    &lt;plurals name=&quot;mtrl_badge_content_description&quot;>"
+        errorLine2="    ^">
+        <location
+            file="res/values-th/plurals.xml"
+            line="3"
+            column="5"/>
+    </issue>
+
+    <issue
+        id="UnusedQuantity"
+        message="For language &quot;vi&quot; (Vietnamese) the following quantities are not relevant: `one`"
+        errorLine1="    &lt;plurals name=&quot;mtrl_badge_content_description&quot;>"
+        errorLine2="    ^">
+        <location
+            file="res/values-vi/plurals.xml"
+            line="3"
+            column="5"/>
+    </issue>
+
+    <issue
+        id="UnusedQuantity"
+        message="For language &quot;zh&quot; (Chinese) the following quantities are not relevant: `one`"
+        errorLine1="    &lt;plurals name=&quot;mtrl_badge_content_description&quot;>"
+        errorLine2="    ^">
+        <location
+            file="res/values-zh-rCN/plurals.xml"
+            line="3"
+            column="5"/>
+    </issue>
+
+    <issue
+        id="UnusedQuantity"
+        message="For language &quot;zh&quot; (Chinese) the following quantities are not relevant: `one`"
+        errorLine1="    &lt;plurals name=&quot;mtrl_badge_content_description&quot;>"
+        errorLine2="    ^">
+        <location
+            file="res/values-zh-rHK/plurals.xml"
+            line="3"
+            column="5"/>
+    </issue>
+
+    <issue
+        id="UnusedQuantity"
+        message="For language &quot;zh&quot; (Chinese) the following quantities are not relevant: `one`"
+        errorLine1="    &lt;plurals name=&quot;mtrl_badge_content_description&quot;>"
+        errorLine2="    ^">
+        <location
+            file="res/values-zh-rTW/plurals.xml"
+            line="3"
+            column="5"/>
+    </issue>
+
+    <issue
+        id="UseCompoundDrawables"
+        message="This tag and its children can be replaced by one `&lt;TextView/>` and a compound drawable"
+        errorLine1="    &lt;LinearLayout android:duplicateParentState=&quot;true&quot; android:layout_width=&quot;wrap_content&quot; android:layout_height=&quot;fill_parent&quot;>"
+        errorLine2="     ~~~~~~~~~~~~">
+        <location
+            file="res/layout/abc_activity_chooser_view_list_item.xml"
+            line="4"
+            column="6"/>
+    </issue>
+
+    <issue
+        id="MergeRootFrame"
+        message="This `&lt;FrameLayout>` can be replaced with a `&lt;merge>` tag"
+        errorLine1="&lt;FrameLayout android:id=&quot;@id/icon_group&quot; android:layout_width=&quot;@dimen/notification_large_icon_width&quot; android:layout_height=&quot;@dimen/notification_large_icon_height&quot;"
+        errorLine2="^">
+        <location
+            file="res/layout/notification_template_icon_group.xml"
+            line="2"
+            column="1"/>
+    </issue>
+
+    <issue
+        id="DisableBaselineAlignment"
+        message="Set `android:baselineAligned=&quot;false&quot;` on this element for better performance"
+        errorLine1="        &lt;LinearLayout android:orientation=&quot;horizontal&quot; android:id=&quot;@id/notification_main_column_container&quot; android:layout_width=&quot;fill_parent&quot; android:layout_height=&quot;wrap_content&quot; android:minHeight=&quot;@dimen/notification_large_icon_height&quot;>"
+        errorLine2="         ~~~~~~~~~~~~">
+        <location
+            file="res/layout/notification_template_custom_big.xml"
+            line="6"
+            column="10"/>
+    </issue>
+
+    <issue
+        id="InefficientWeight"
+        message="Use a `layout_width` of `0dp` instead of `wrap_content` for better performance"
+        errorLine1="    &lt;LinearLayout android:orientation=&quot;horizontal&quot; android:id=&quot;@id/search_edit_frame&quot; android:layout_width=&quot;wrap_content&quot; android:layout_height=&quot;fill_parent&quot; android:layout_marginLeft=&quot;8.0dip&quot; android:layout_marginRight=&quot;8.0dip&quot; android:layout_weight=&quot;1.0&quot; android:layoutDirection=&quot;locale&quot;>"
+        errorLine2="                                                                                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="res/layout/abc_search_view.xml"
+            line="6"
+            column="87"/>
+    </issue>
+
+    <issue
+        id="InefficientWeight"
+        message="Use a `layout_width` of `0dp` instead of `wrap_content` for better performance"
+        errorLine1="        &lt;LinearLayout android:layout_gravity=&quot;center_vertical&quot; android:orientation=&quot;horizontal&quot; android:id=&quot;@id/search_plate&quot; android:layout_width=&quot;wrap_content&quot; android:layout_height=&quot;fill_parent&quot; android:layout_weight=&quot;1.0&quot;>"
+        errorLine2="                                                                                                                              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="res/layout/abc_search_view.xml"
+            line="8"
+            column="127"/>
+    </issue>
+
+    <issue
+        id="InefficientWeight"
+        message="Use a `layout_width` of `0dp` instead of `fill_parent` for better performance"
+        errorLine1="            &lt;FrameLayout android:id=&quot;@id/notification_main_column&quot; android:layout_width=&quot;fill_parent&quot; android:layout_height=&quot;wrap_content&quot; android:layout_marginBottom=&quot;8.0dip&quot; android:layout_weight=&quot;1.0&quot; android:layout_marginEnd=&quot;8.0dip&quot; />"
+        errorLine2="                                                                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="res/layout/notification_template_custom_big.xml"
+            line="7"
+            column="68"/>
+    </issue>
+
+    <issue
+        id="NestedWeights"
+        message="Nested weights are bad for performance"
+        errorLine1="        &lt;LinearLayout android:layout_gravity=&quot;center_vertical&quot; android:orientation=&quot;horizontal&quot; android:id=&quot;@id/search_plate&quot; android:layout_width=&quot;wrap_content&quot; android:layout_height=&quot;fill_parent&quot; android:layout_weight=&quot;1.0&quot;>"
+        errorLine2="                                                                                                                                                                                                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="res/layout/abc_search_view.xml"
+            line="8"
+            column="199"/>
+    </issue>
+
+    <issue
+        id="NestedWeights"
+        message="Nested weights are bad for performance"
+        errorLine1="            &lt;view android:ellipsize=&quot;end&quot; android:layout_gravity=&quot;center_vertical&quot; android:id=&quot;@id/search_src_text&quot; android:background=&quot;@null&quot; android:paddingLeft=&quot;@dimen/abc_dropdownitem_text_padding_left&quot; android:paddingRight=&quot;@dimen/abc_dropdownitem_text_padding_right&quot; android:layout_width=&quot;0.0dip&quot; android:layout_height=&quot;36.0dip&quot; android:singleLine=&quot;true&quot; android:layout_weight=&quot;1.0&quot; android:inputType=&quot;textAutoComplete|textNoSuggestions&quot; android:dropDownAnchor=&quot;@id/search_edit_frame&quot; android:imeOptions=&quot;actionSearch&quot; android:dropDownHeight=&quot;wrap_content&quot; android:dropDownHorizontalOffset=&quot;0.0dip&quot; android:dropDownVerticalOffset=&quot;0.0dip&quot; class=&quot;androidx.appcompat.widget.SearchView$SearchAutoComplete&quot; />"
+        errorLine2="                                                                                                                                                                                                                                                                                                                                                                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="res/layout/abc_search_view.xml"
+            line="9"
+            column="362"/>
+    </issue>
+
+    <issue
+        id="Overdraw"
+        message="Possible overdraw: Root element paints background `?actionBarItemBackground` with a theme that also paints a background (inferred theme is `@style/Theme.Encryptor`)"
+        errorLine1="&lt;LinearLayout android:enabled=&quot;false&quot; android:gravity=&quot;center_vertical&quot; android:background=&quot;?actionBarItemBackground&quot; android:layout_width=&quot;wrap_content&quot; android:layout_height=&quot;fill_parent&quot;"
+        errorLine2="                                                                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="res/layout/abc_action_bar_up_container.xml"
+            line="2"
+            column="73"/>
+    </issue>
+
+    <issue
+        id="Overdraw"
+        message="Possible overdraw: Root element paints background `#ff97c7cd` with a theme that also paints a background (inferred theme is `@style/Theme.Encryptor`)"
+        errorLine1="&lt;androidx.constraintlayout.widget.ConstraintLayout android:background=&quot;#ff97c7cd&quot; android:layout_width=&quot;fill_parent&quot; android:layout_height=&quot;fill_parent&quot;"
+        errorLine2="                                                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="res/layout/activity_main.xml"
+            line="2"
+            column="52"/>
+    </issue>
+
+    <issue
+        id="Overdraw"
+        message="Possible overdraw: Root element paints background `?actionBarItemBackground` with a theme that also paints a background (inferred theme is `@style/Theme.Encryptor`)"
+        errorLine1="&lt;com.google.android.material.internal.CheckableImageButton android:layout_gravity=&quot;end|center&quot; android:id=&quot;@id/text_input_end_icon&quot; android:background=&quot;?actionBarItemBackground&quot; android:visibility=&quot;gone&quot; android:layout_width=&quot;wrap_content&quot; android:layout_height=&quot;wrap_content&quot; android:minWidth=&quot;@dimen/mtrl_min_touch_target_size&quot; android:minHeight=&quot;@dimen/mtrl_min_touch_target_size&quot; android:layout_marginStart=&quot;@dimen/mtrl_textinput_end_icon_margin_start&quot;"
+        errorLine2="                                                                                                                                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="res/layout/design_text_input_end_icon.xml"
+            line="2"
+            column="133"/>
+    </issue>
+
+    <issue
+        id="Overdraw"
+        message="Possible overdraw: Root element paints background `?actionBarItemBackground` with a theme that also paints a background (inferred theme is `@style/Theme.Encryptor`)"
+        errorLine1="&lt;com.google.android.material.internal.CheckableImageButton android:layout_gravity=&quot;start|center&quot; android:id=&quot;@id/text_input_start_icon&quot; android:background=&quot;?actionBarItemBackground&quot; android:visibility=&quot;gone&quot; android:layout_width=&quot;wrap_content&quot; android:layout_height=&quot;wrap_content&quot; android:minWidth=&quot;@dimen/mtrl_min_touch_target_size&quot; android:minHeight=&quot;@dimen/mtrl_min_touch_target_size&quot; android:layout_marginEnd=&quot;@dimen/mtrl_textinput_start_icon_margin_end&quot;"
+        errorLine2="                                                                                                                                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="res/layout/design_text_input_start_icon.xml"
+            line="2"
+            column="137"/>
+    </issue>
+
+    <issue
+        id="UselessParent"
+        message="This `LinearLayout` layout or its `LinearLayout` parent is unnecessary; transfer the `background` attribute to the other view"
+        errorLine1="    &lt;LinearLayout android:duplicateParentState=&quot;true&quot; android:layout_width=&quot;wrap_content&quot; android:layout_height=&quot;fill_parent&quot;>"
+        errorLine2="     ~~~~~~~~~~~~">
+        <location
+            file="res/layout/abc_activity_chooser_view_list_item.xml"
+            line="4"
+            column="6"/>
+    </issue>
+
+    <issue
+        id="RedundantNamespace"
+        message="This namespace declaration is redundant"
+        errorLine1="          xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;>"
+        errorLine2="          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="res/drawable/notification_action_background.xml"
+            line="6"
+            column="11"/>
+    </issue>
+
+    <issue
+        id="TypographyEllipsis"
+        message="Replace &quot;...&quot; with ellipsis character (…, &amp;#8230;) ?"
+        errorLine1="    &lt;string name=&quot;abc_search_hint&quot;>Axtarış...&lt;/string>"
+        errorLine2="                                   ~~~~~~~~~~">
+        <location
+            file="res/values-az/strings.xml"
+            line="21"
+            column="36"/>
+    </issue>
+
+    <issue
+        id="TypographyEllipsis"
+        message="Replace &quot;...&quot; with ellipsis character (…, &amp;#8230;) ?"
+        errorLine1="    &lt;string name=&quot;abc_search_hint&quot;>Pretražite...&lt;/string>"
+        errorLine2="                                   ~~~~~~~~~~~~~">
+        <location
+            file="res/values-bs/strings.xml"
+            line="21"
+            column="36"/>
+    </issue>
+
+    <issue
+        id="TypographyEllipsis"
+        message="Replace &quot;...&quot; with ellipsis character (…, &amp;#8230;) ?"
+        errorLine1="    &lt;string name=&quot;abc_search_hint&quot;>Telusuri...&lt;/string>"
+        errorLine2="                                   ~~~~~~~~~~~">
+        <location
+            file="res/values-in/strings.xml"
+            line="21"
+            column="36"/>
+    </issue>
+
+    <issue
+        id="TypographyEllipsis"
+        message="Replace &quot;...&quot; with ellipsis character (…, &amp;#8230;) ?"
+        errorLine1="    &lt;string name=&quot;abc_search_hint&quot;>검색...&lt;/string>"
+        errorLine2="                                   ~~~~~">
+        <location
+            file="res/values-ko/strings.xml"
+            line="21"
+            column="36"/>
+    </issue>
+
+    <issue
+        id="TypographyEllipsis"
+        message="Replace &quot;...&quot; with ellipsis character (…, &amp;#8230;) ?"
+        errorLine1="    &lt;string name=&quot;abc_search_hint&quot;>සොයන්න...&lt;/string>"
+        errorLine2="                                   ~~~~~~~~~">
+        <location
+            file="res/values-si/strings.xml"
+            line="21"
+            column="36"/>
+    </issue>
+
+    <issue
+        id="WebpUnsupported"
+        message="WebP extended or lossless format requires Android 4.2.1 (API 18); current minSdkVersion is -1">
+        <location
+            file="res/mipmap-hdpi/ic_launcher.webp"/>
+    </issue>
+
+    <issue
+        id="WebpUnsupported"
+        message="WebP extended or lossless format requires Android 4.2.1 (API 18); current minSdkVersion is -1">
+        <location
+            file="res/mipmap-mdpi/ic_launcher.webp"/>
+    </issue>
+
+    <issue
+        id="WebpUnsupported"
+        message="WebP extended or lossless format requires Android 4.2.1 (API 18); current minSdkVersion is -1">
+        <location
+            file="res/mipmap-xhdpi/ic_launcher.webp"/>
+    </issue>
+
+    <issue
+        id="WebpUnsupported"
+        message="WebP extended or lossless format requires Android 4.2.1 (API 18); current minSdkVersion is -1">
+        <location
+            file="res/mipmap-xxhdpi/ic_launcher.webp"/>
+    </issue>
+
+    <issue
+        id="WebpUnsupported"
+        message="WebP extended or lossless format requires Android 4.2.1 (API 18); current minSdkVersion is -1">
+        <location
+            file="res/mipmap-xxxhdpi/ic_launcher.webp"/>
+    </issue>
+
+    <issue
+        id="WebpUnsupported"
+        message="WebP extended or lossless format requires Android 4.2.1 (API 18); current minSdkVersion is -1">
+        <location
+            file="res/mipmap-hdpi/ic_launcher_round.webp"/>
+    </issue>
+
+    <issue
+        id="WebpUnsupported"
+        message="WebP extended or lossless format requires Android 4.2.1 (API 18); current minSdkVersion is -1">
+        <location
+            file="res/mipmap-mdpi/ic_launcher_round.webp"/>
+    </issue>
+
+    <issue
+        id="WebpUnsupported"
+        message="WebP extended or lossless format requires Android 4.2.1 (API 18); current minSdkVersion is -1">
+        <location
+            file="res/mipmap-xhdpi/ic_launcher_round.webp"/>
+    </issue>
+
+    <issue
+        id="WebpUnsupported"
+        message="WebP extended or lossless format requires Android 4.2.1 (API 18); current minSdkVersion is -1">
+        <location
+            file="res/mipmap-xxhdpi/ic_launcher_round.webp"/>
+    </issue>
+
+    <issue
+        id="WebpUnsupported"
+        message="WebP extended or lossless format requires Android 4.2.1 (API 18); current minSdkVersion is -1">
+        <location
+            file="res/mipmap-xxxhdpi/ic_launcher_round.webp"/>
+    </issue>
+
+    <issue
+        id="IconDipSize"
+        message="The image `notify_panel_notification_icon_bg.png` varies significantly in its density-independent (dip) size across the various density versions: drawable-hdpi/notify_panel_notification_icon_bg.png: 9x9 dp (14x14 px), drawable-mdpi/notify_panel_notification_icon_bg.png: 15x15 dp (15x15 px), drawable-xhdpi/notify_panel_notification_icon_bg.png: 15x15 dp (30x30 px)">
+        <location
+            file="res/drawable-hdpi/notify_panel_notification_icon_bg.png"/>
+        <location
+            file="res/drawable-xhdpi/notify_panel_notification_icon_bg.png"/>
+        <location
+            file="res/drawable-mdpi/notify_panel_notification_icon_bg.png"/>
+    </issue>
+
+    <issue
+        id="IconDuplicatesConfig"
+        message="The `abc_list_divider_mtrl_alpha.9.png` icon has identical contents in the following configuration folders: drawable-hdpi, drawable-mdpi, drawable-xhdpi">
+        <location
+            file="res/drawable-xhdpi/abc_list_divider_mtrl_alpha.9.png"/>
+        <location
+            file="res/drawable-mdpi/abc_list_divider_mtrl_alpha.9.png"/>
+        <location
+            file="res/drawable-hdpi/abc_list_divider_mtrl_alpha.9.png"/>
+    </issue>
+
+    <issue
+        id="IconDensities"
+        message="Missing the following drawables in `drawable-xxhdpi`: notification_bg_low_normal.9.png, notification_bg_low_pressed.9.png, notification_bg_normal.9.png, notification_bg_normal_pressed.9.png, notify_panel_notification_icon_bg.png">
+        <location
+            file="res/drawable-xxhdpi"/>
+    </issue>
+
+    <issue
+        id="ContentDescription"
+        message="Missing `contentDescription` attribute on image"
+        errorLine1="        &lt;ImageView android:layout_gravity=&quot;center&quot; android:id=&quot;@id/image&quot; android:layout_width=&quot;32.0dip&quot; android:layout_height=&quot;32.0dip&quot; android:scaleType=&quot;fitCenter&quot; android:adjustViewBounds=&quot;true&quot; />"
+        errorLine2="         ~~~~~~~~~">
+        <location
+            file="res/layout/abc_activity_chooser_view.xml"
+            line="5"
+            column="10"/>
+    </issue>
+
+    <issue
+        id="ContentDescription"
+        message="Missing `contentDescription` attribute on image"
+        errorLine1="        &lt;ImageView android:layout_gravity=&quot;center&quot; android:id=&quot;@id/image&quot; android:layout_width=&quot;32.0dip&quot; android:layout_height=&quot;32.0dip&quot; android:scaleType=&quot;fitCenter&quot; android:adjustViewBounds=&quot;true&quot; />"
+        errorLine2="         ~~~~~~~~~">
+        <location
+            file="res/layout/abc_activity_chooser_view.xml"
+            line="8"
+            column="10"/>
+    </issue>
+
+    <issue
+        id="ContentDescription"
+        message="Missing `contentDescription` attribute on image"
+        errorLine1="        &lt;ImageView android:layout_gravity=&quot;center_vertical&quot; android:id=&quot;@id/icon&quot; android:duplicateParentState=&quot;true&quot; android:layout_width=&quot;32.0dip&quot; android:layout_height=&quot;32.0dip&quot; android:layout_marginRight=&quot;8.0dip&quot; />"
+        errorLine2="         ~~~~~~~~~">
+        <location
+            file="res/layout/abc_activity_chooser_view_list_item.xml"
+            line="5"
+            column="10"/>
+    </issue>
+
+    <issue
+        id="ContentDescription"
+        message="Missing `contentDescription` attribute on image"
+        errorLine1="        &lt;ImageView android:layout_gravity=&quot;top&quot; android:id=&quot;@id/scrollIndicatorUp&quot; android:background=&quot;#1f000000&quot; android:visibility=&quot;gone&quot; android:layout_width=&quot;fill_parent&quot; android:layout_height=&quot;1.0dip&quot; app:backgroundTint=&quot;?android:colorForeground&quot; />"
+        errorLine2="         ~~~~~~~~~">
+        <location
+            file="res/layout/abc_alert_dialog_material.xml"
+            line="6"
+            column="10"/>
+    </issue>
+
+    <issue
+        id="ContentDescription"
+        message="Missing `contentDescription` attribute on image"
+        errorLine1="        &lt;ImageView android:layout_gravity=&quot;bottom&quot; android:id=&quot;@id/scrollIndicatorDown&quot; android:background=&quot;#1f000000&quot; android:visibility=&quot;gone&quot; android:layout_width=&quot;fill_parent&quot; android:layout_height=&quot;1.0dip&quot; app:backgroundTint=&quot;?android:colorForeground&quot; />"
+        errorLine2="         ~~~~~~~~~">
+        <location
+            file="res/layout/abc_alert_dialog_material.xml"
+            line="14"
+            column="10"/>
+    </issue>
+
+    <issue
+        id="ContentDescription"
+        message="Missing `contentDescription` attribute on image"
+        errorLine1="        &lt;ImageView android:layout_gravity=&quot;center_horizontal&quot; android:id=&quot;@android:id/icon&quot; android:layout_width=&quot;wrap_content&quot; android:layout_height=&quot;wrap_content&quot; android:adjustViewBounds=&quot;true&quot; android:maxWidth=&quot;24.0dip&quot; android:maxHeight=&quot;24.0dip&quot; />"
+        errorLine2="         ~~~~~~~~~">
+        <location
+            file="res/layout-watch/abc_alert_dialog_title_material.xml"
+            line="5"
+            column="10"/>
+    </issue>
+
+    <issue
+        id="ContentDescription"
+        message="Missing `contentDescription` attribute on image"
+        errorLine1="        &lt;ImageView android:id=&quot;@android:id/icon&quot; android:layout_width=&quot;32.0dip&quot; android:layout_height=&quot;32.0dip&quot; android:layout_marginRight=&quot;8.0dip&quot; android:src=&quot;@null&quot; android:scaleType=&quot;fitCenter&quot; android:layout_marginEnd=&quot;8.0dip&quot; />"
+        errorLine2="         ~~~~~~~~~">
+        <location
+            file="res/layout/abc_alert_dialog_title_material.xml"
+            line="5"
+            column="10"/>
+    </issue>
+
+    <issue
+        id="ContentDescription"
+        message="Missing `contentDescription` attribute on image"
+        errorLine1="    &lt;ImageView android:id=&quot;@id/group_divider&quot; android:background=&quot;@drawable/abc_list_divider_material&quot; android:layout_width=&quot;fill_parent&quot; android:layout_height=&quot;1.0dip&quot; android:layout_marginTop=&quot;4.0dip&quot; android:layout_marginBottom=&quot;4.0dip&quot; />"
+        errorLine2="     ~~~~~~~~~">
+        <location
+            file="res/layout/abc_cascading_menu_item_layout.xml"
+            line="4"
+            column="6"/>
+    </issue>
+
+    <issue
+        id="ContentDescription"
+        message="Missing `contentDescription` attribute on image"
+        errorLine1="        &lt;ImageView android:layout_gravity=&quot;center&quot; android:id=&quot;@id/submenuarrow&quot; android:visibility=&quot;gone&quot; android:layout_width=&quot;wrap_content&quot; android:layout_height=&quot;wrap_content&quot; android:scaleType=&quot;center&quot; style=&quot;@style/RtlOverlay.Widget.AppCompat.PopupMenuItem.SubmenuArrow&quot; />"
+        errorLine2="         ~~~~~~~~~">
+        <location
+            file="res/layout/abc_cascading_menu_item_layout.xml"
+            line="9"
+            column="10"/>
+    </issue>
+
+    <issue
+        id="ContentDescription"
+        message="Missing `contentDescription` attribute on image"
+        errorLine1="&lt;ImageView android:layout_gravity=&quot;center_vertical&quot; android:id=&quot;@id/icon&quot; android:duplicateParentState=&quot;true&quot; android:layout_width=&quot;wrap_content&quot; android:layout_height=&quot;wrap_content&quot; android:layout_marginLeft=&quot;8.0dip&quot; android:layout_marginTop=&quot;8.0dip&quot; android:layout_marginRight=&quot;-8.0dip&quot; android:layout_marginBottom=&quot;8.0dip&quot; android:scaleType=&quot;centerInside&quot; android:layout_marginStart=&quot;8.0dip&quot; android:layout_marginEnd=&quot;-8.0dip&quot;"
+        errorLine2=" ~~~~~~~~~">
+        <location
+            file="res/layout/abc_list_menu_item_icon.xml"
+            line="2"
+            column="2"/>
+    </issue>
+
+    <issue
+        id="ContentDescription"
+        message="Missing `contentDescription` attribute on image"
+        errorLine1="    &lt;ImageView android:id=&quot;@id/group_divider&quot; android:background=&quot;@drawable/abc_list_divider_material&quot; android:layout_width=&quot;fill_parent&quot; android:layout_height=&quot;1.0dip&quot; android:layout_marginTop=&quot;4.0dip&quot; android:layout_marginBottom=&quot;4.0dip&quot; />"
+        errorLine2="     ~~~~~~~~~">
+        <location
+            file="res/layout/abc_popup_menu_item_layout.xml"
+            line="4"
+            column="6"/>
+    </issue>
+
+    <issue
+        id="ContentDescription"
+        message="Missing `contentDescription` attribute on image"
+        errorLine1="        &lt;ImageView android:layout_gravity=&quot;center&quot; android:id=&quot;@id/submenuarrow&quot; android:visibility=&quot;gone&quot; android:layout_width=&quot;wrap_content&quot; android:layout_height=&quot;wrap_content&quot; android:scaleType=&quot;center&quot; style=&quot;@style/RtlOverlay.Widget.AppCompat.PopupMenuItem.SubmenuArrow&quot; />"
+        errorLine2="         ~~~~~~~~~">
+        <location
+            file="res/layout/abc_popup_menu_item_layout.xml"
+            line="10"
+            column="10"/>
+    </issue>
+
+    <issue
+        id="ContentDescription"
+        message="Missing `contentDescription` attribute on image"
+        errorLine1="    &lt;ImageView android:id=&quot;@android:id/icon1&quot; android:visibility=&quot;invisible&quot; android:layout_width=&quot;@dimen/abc_dropdownitem_icon_width&quot; android:layout_height=&quot;48.0dip&quot; android:scaleType=&quot;centerInside&quot; android:layout_alignParentTop=&quot;true&quot; android:layout_alignParentBottom=&quot;true&quot; style=&quot;@style/RtlOverlay.Widget.AppCompat.Search.DropDown.Icon1&quot; />"
+        errorLine2="     ~~~~~~~~~">
+        <location
+            file="res/layout/abc_search_dropdown_item_icons_2line.xml"
+            line="4"
+            column="6"/>
+    </issue>
+
+    <issue
+        id="ContentDescription"
+        message="Missing `contentDescription` attribute on image"
+        errorLine1="    &lt;ImageView android:id=&quot;@id/edit_query&quot; android:background=&quot;?selectableItemBackground&quot; android:visibility=&quot;gone&quot; android:layout_width=&quot;48.0dip&quot; android:layout_height=&quot;48.0dip&quot; android:scaleType=&quot;centerInside&quot; android:layout_alignParentTop=&quot;true&quot; android:layout_alignParentBottom=&quot;true&quot; style=&quot;@style/RtlOverlay.Widget.AppCompat.Search.DropDown.Query&quot; />"
+        errorLine2="     ~~~~~~~~~">
+        <location
+            file="res/layout/abc_search_dropdown_item_icons_2line.xml"
+            line="5"
+            column="6"/>
+    </issue>
+
+    <issue
+        id="ContentDescription"
+        message="Missing `contentDescription` attribute on image"
+        errorLine1="    &lt;ImageView android:id=&quot;@android:id/icon2&quot; android:visibility=&quot;gone&quot; android:layout_width=&quot;48.0dip&quot; android:layout_height=&quot;48.0dip&quot; android:scaleType=&quot;centerInside&quot; android:layout_alignParentTop=&quot;true&quot; android:layout_alignParentBottom=&quot;true&quot; android:layout_alignWithParentIfMissing=&quot;true&quot; style=&quot;@style/RtlOverlay.Widget.AppCompat.Search.DropDown.Icon2&quot; />"
+        errorLine2="     ~~~~~~~~~">
+        <location
+            file="res/layout/abc_search_dropdown_item_icons_2line.xml"
+            line="6"
+            column="6"/>
+    </issue>
+
+    <issue
+        id="ContentDescription"
+        message="Missing `contentDescription` attribute on image"
+        errorLine1="        &lt;ImageView android:layout_gravity=&quot;center_vertical&quot; android:id=&quot;@id/search_mag_icon&quot; android:visibility=&quot;gone&quot; android:layout_width=&quot;@dimen/abc_dropdownitem_icon_width&quot; android:layout_height=&quot;wrap_content&quot; android:scaleType=&quot;centerInside&quot; style=&quot;@style/RtlOverlay.Widget.AppCompat.SearchView.MagIcon&quot; />"
+        errorLine2="         ~~~~~~~~~">
+        <location
+            file="res/layout/abc_search_view.xml"
+            line="7"
+            column="10"/>
+    </issue>
+
+    <issue
+        id="ContentDescription"
+        message="Missing `contentDescription` attribute on image"
+        errorLine1="        &lt;ImageView android:id=&quot;@android:id/icon&quot; style=&quot;?materialAlertDialogTitleIconStyle&quot; />"
+        errorLine2="         ~~~~~~~~~">
+        <location
+            file="res/layout/m3_alert_dialog_title.xml"
+            line="5"
+            column="10"/>
+    </issue>
+
+    <issue
+        id="ContentDescription"
+        message="Missing `contentDescription` attribute on image"
+        errorLine1="        &lt;ImageView android:id=&quot;@android:id/icon&quot; style=&quot;?materialAlertDialogTitleIconStyle&quot; />"
+        errorLine2="         ~~~~~~~~~">
+        <location
+            file="res/layout/mtrl_alert_dialog_title.xml"
+            line="5"
+            column="10"/>
+    </issue>
+
+    <issue
+        id="ContentDescription"
+        message="Missing `contentDescription` attribute on image"
+        errorLine1="    &lt;ImageView android:layout_gravity=&quot;start|center&quot; android:id=&quot;@id/action_image&quot; android:layout_width=&quot;@dimen/notification_action_icon_size&quot; android:layout_height=&quot;@dimen/notification_action_icon_size&quot; android:scaleType=&quot;centerInside&quot; />"
+        errorLine2="     ~~~~~~~~~">
+        <location
+            file="res/layout/notification_action.xml"
+            line="4"
+            column="6"/>
+    </issue>
+
+    <issue
+        id="ContentDescription"
+        message="Missing `contentDescription` attribute on image"
+        errorLine1="    &lt;ImageView android:enabled=&quot;false&quot; android:layout_gravity=&quot;start|center&quot; android:id=&quot;@id/action_image&quot; android:layout_width=&quot;@dimen/notification_action_icon_size&quot; android:layout_height=&quot;@dimen/notification_action_icon_size&quot; android:scaleType=&quot;centerInside&quot; android:alpha=&quot;0.5&quot; />"
+        errorLine2="     ~~~~~~~~~">
+        <location
+            file="res/layout/notification_action_tombstone.xml"
+            line="4"
+            column="6"/>
+    </issue>
+
+    <issue
+        id="ContentDescription"
+        message="Missing `contentDescription` attribute on image"
+        errorLine1="        &lt;ImageView android:id=&quot;@id/action_divider&quot; android:background=&quot;#29000000&quot; android:visibility=&quot;gone&quot; android:layout_width=&quot;fill_parent&quot; android:layout_height=&quot;1.0dip&quot; />"
+        errorLine2="         ~~~~~~~~~">
+        <location
+            file="res/layout/notification_template_custom_big.xml"
+            line="14"
+            column="10"/>
+    </issue>
+
+    <issue
+        id="ContentDescription"
+        message="Missing `contentDescription` attribute on image"
+        errorLine1="    &lt;ImageView android:id=&quot;@id/icon&quot; android:layout_width=&quot;fill_parent&quot; android:layout_height=&quot;fill_parent&quot; android:layout_marginTop=&quot;@dimen/notification_big_circle_margin&quot; android:layout_marginBottom=&quot;@dimen/notification_big_circle_margin&quot; android:scaleType=&quot;centerInside&quot; android:layout_marginStart=&quot;@dimen/notification_big_circle_margin&quot; android:layout_marginEnd=&quot;@dimen/notification_big_circle_margin&quot; />"
+        errorLine2="     ~~~~~~~~~">
+        <location
+            file="res/layout/notification_template_icon_group.xml"
+            line="4"
+            column="6"/>
+    </issue>
+
+    <issue
+        id="ContentDescription"
+        message="Missing `contentDescription` attribute on image"
+        errorLine1="    &lt;ImageView android:layout_gravity=&quot;end|bottom|center&quot; android:id=&quot;@id/right_icon&quot; android:visibility=&quot;gone&quot; android:layout_width=&quot;@dimen/notification_right_icon_size&quot; android:layout_height=&quot;@dimen/notification_right_icon_size&quot; android:layout_marginBottom=&quot;8.0dip&quot; android:scaleType=&quot;centerInside&quot; android:layout_marginEnd=&quot;8.0dip&quot; />"
+        errorLine2="     ~~~~~~~~~">
+        <location
+            file="res/layout/notification_template_icon_group.xml"
+            line="5"
+            column="6"/>
+    </issue>
+
+    <issue
+        id="LabelFor"
+        message="Missing accessibility label: where minSdk &lt; 17, you should provide an `android:hint`"
+        errorLine1="    &lt;EditText android:id=&quot;@id/input&quot; android:layout_width=&quot;wrap_content&quot; android:layout_height=&quot;wrap_content&quot; android:layout_marginTop=&quot;32.0dip&quot; android:layout_marginBottom=&quot;60.0dip&quot; android:text=&quot;Your text...&quot; android:ems=&quot;10&quot; android:inputType=&quot;text&quot; android:layout_marginStart=&quot;101.0dip&quot; android:layout_marginEnd=&quot;101.0dip&quot; app:layout_constraintBottom_toTopOf=&quot;@id/button&quot; app:layout_constraintEnd_toEndOf=&quot;parent&quot; app:layout_constraintHorizontal_bias=&quot;0.0&quot; app:layout_constraintStart_toStartOf=&quot;parent&quot; app:layout_constraintTop_toBottomOf=&quot;@id/textView2&quot; app:layout_constraintVertical_bias=&quot;0.0&quot; />"
+        errorLine2="    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="res/layout/activity_main.xml"
+            line="8"
+            column="5"/>
+    </issue>
+
+    <issue
+        id="LabelFor"
+        message="Missing accessibility label: where minSdk &lt; 17, you should provide an `android:hint`"
+        errorLine1="                        &lt;EditText android:id=&quot;@id/open_search_view_edit_text&quot; android:background=&quot;@null&quot; android:layout_width=&quot;0.0dip&quot; android:layout_height=&quot;fill_parent&quot; android:layout_weight=&quot;1.0&quot; android:inputType=&quot;textNoSuggestions&quot; android:imeOptions=&quot;actionSearch|flagNoExtractUi&quot; android:textDirection=&quot;firstStrong&quot; android:importantForAutofill=&quot;no&quot; />"
+        errorLine2="                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="res/layout/mtrl_search_view.xml"
+            line="14"
+            column="25"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;Encryptor&quot;, should use `@string` resource"
+        errorLine1="    &lt;TextView android:textSize=&quot;34.0sp&quot; android:id=&quot;@id/titleText&quot; android:layout_width=&quot;189.0dip&quot; android:layout_height=&quot;44.0dip&quot; android:layout_marginTop=&quot;32.0dip&quot; android:layout_marginBottom=&quot;80.0dip&quot; android:text=&quot;Encryptor&quot; android:textAlignment=&quot;center&quot; android:layout_marginStart=&quot;111.0dip&quot; android:layout_marginEnd=&quot;111.0dip&quot; app:layout_constraintBottom_toTopOf=&quot;@id/textView2&quot; app:layout_constraintEnd_toEndOf=&quot;parent&quot; app:layout_constraintHorizontal_bias=&quot;0.0&quot; app:layout_constraintStart_toStartOf=&quot;parent&quot; app:layout_constraintTop_toTopOf=&quot;parent&quot; />"
+        errorLine2="                                                                                                                                                                                                            ~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="res/layout/activity_main.xml"
+            line="4"
+            column="205"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;Encrypt your text with my secure encryptor!&quot;, should use `@string` resource"
+        errorLine1="    &lt;TextView android:textSize=&quot;16.0sp&quot; android:id=&quot;@id/textView2&quot; android:layout_width=&quot;307.0dip&quot; android:layout_height=&quot;34.0dip&quot; android:layout_marginTop=&quot;16.0dip&quot; android:layout_marginBottom=&quot;106.0dip&quot; android:text=&quot;Encrypt your text with my secure encryptor!&quot; android:layout_marginStart=&quot;52.0dip&quot; android:layout_marginEnd=&quot;52.0dip&quot; app:layout_constraintBottom_toTopOf=&quot;@id/input&quot; app:layout_constraintEnd_toEndOf=&quot;parent&quot; app:layout_constraintHorizontal_bias=&quot;0.0&quot; app:layout_constraintStart_toStartOf=&quot;parent&quot; app:layout_constraintTop_toBottomOf=&quot;@id/titleText&quot; />"
+        errorLine2="                                                                                                                                                                                                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="res/layout/activity_main.xml"
+            line="5"
+            column="206"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;Encrypt&quot;, should use `@string` resource"
+        errorLine1="    &lt;Button android:id=&quot;@id/button&quot; android:layout_width=&quot;132.0dip&quot; android:layout_height=&quot;0.0dip&quot; android:layout_marginTop=&quot;60.0dip&quot; android:text=&quot;Encrypt&quot; android:onClick=&quot;encrypt_onClick&quot; android:layout_marginStart=&quot;139.0dip&quot; android:layout_marginEnd=&quot;140.0dip&quot; app:layout_constraintEnd_toEndOf=&quot;parent&quot; app:layout_constraintHorizontal_bias=&quot;0.0&quot; app:layout_constraintStart_toStartOf=&quot;parent&quot; app:layout_constraintTop_toBottomOf=&quot;@id/input&quot; />"
+        errorLine2="                                                                                                                                      ~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="res/layout/activity_main.xml"
+            line="6"
+            column="135"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;Get Flag! (Encoded}&quot;, should use `@string` resource"
+        errorLine1="    &lt;Button android:id=&quot;@id/button2&quot; android:layout_width=&quot;132.0dip&quot; android:layout_height=&quot;0.0dip&quot; android:layout_marginTop=&quot;128.0dip&quot; android:text=&quot;Get Flag! (Encoded}&quot; android:onClick=&quot;getflag_onClick&quot; android:layout_marginStart=&quot;139.0dip&quot; android:layout_marginEnd=&quot;140.0dip&quot; app:layout_constraintEnd_toEndOf=&quot;parent&quot; app:layout_constraintHorizontal_bias=&quot;0.0&quot; app:layout_constraintStart_toStartOf=&quot;parent&quot; app:layout_constraintTop_toBottomOf=&quot;@id/input&quot; />"
+        errorLine2="                                                                                                                                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="res/layout/activity_main.xml"
+            line="7"
+            column="137"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;Your text...&quot;, should use `@string` resource"
+        errorLine1="    &lt;EditText android:id=&quot;@id/input&quot; android:layout_width=&quot;wrap_content&quot; android:layout_height=&quot;wrap_content&quot; android:layout_marginTop=&quot;32.0dip&quot; android:layout_marginBottom=&quot;60.0dip&quot; android:text=&quot;Your text...&quot; android:ems=&quot;10&quot; android:inputType=&quot;text&quot; android:layout_marginStart=&quot;101.0dip&quot; android:layout_marginEnd=&quot;101.0dip&quot; app:layout_constraintBottom_toTopOf=&quot;@id/button&quot; app:layout_constraintEnd_toEndOf=&quot;parent&quot; app:layout_constraintHorizontal_bias=&quot;0.0&quot; app:layout_constraintStart_toStartOf=&quot;parent&quot; app:layout_constraintTop_toBottomOf=&quot;@id/textView2&quot; app:layout_constraintVertical_bias=&quot;0.0&quot; />"
+        errorLine2="                                                                                                                                                                                       ~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="res/layout/activity_main.xml"
+            line="8"
+            column="184"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot; Ok &quot;, should use `@string` resource"
+        errorLine1="    &lt;Button android:id=&quot;@id/dialog_button&quot; android:layout_width=&quot;100.0px&quot; android:layout_height=&quot;wrap_content&quot; android:layout_marginTop=&quot;5.0dip&quot; android:layout_marginRight=&quot;5.0dip&quot; android:text=&quot; Ok &quot; />"
+        errorLine2="                                                                                                                                                                                     ~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="res/layout/custom_dialog.xml"
+            line="4"
+            column="182"/>
+    </issue>
+
+    <issue
+        id="RtlHardcoded"
+        message="Consider adding `android:layout_marginEnd=&quot;8.0dip&quot;` to better support right-to-left layouts"
+        errorLine1="        &lt;ImageView android:layout_gravity=&quot;center_vertical&quot; android:id=&quot;@id/icon&quot; android:duplicateParentState=&quot;true&quot; android:layout_width=&quot;32.0dip&quot; android:layout_height=&quot;32.0dip&quot; android:layout_marginRight=&quot;8.0dip&quot; />"
+        errorLine2="                                                                                                                                                                                     ~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="res/layout/abc_activity_chooser_view_list_item.xml"
+            line="5"
+            column="182"/>
+    </issue>
+
+    <issue
+        id="RtlHardcoded"
+        message="Consider adding `android:layout_marginEnd=&quot;?listPreferredItemPaddingRight&quot;` to better support right-to-left layouts"
+        errorLine1="    &lt;RelativeLayout android:layout_gravity=&quot;center_vertical&quot; android:duplicateParentState=&quot;true&quot; android:layout_width=&quot;0.0dip&quot; android:layout_height=&quot;wrap_content&quot; android:layout_marginLeft=&quot;?listPreferredItemPaddingLeft&quot; android:layout_marginRight=&quot;?listPreferredItemPaddingRight&quot; android:layout_weight=&quot;1.0&quot;>"
+        errorLine2="                                                                                                                                                                                                                              ~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="res/layout/abc_list_menu_item_layout.xml"
+            line="4"
+            column="223"/>
+    </issue>
+
+    <issue
+        id="RtlHardcoded"
+        message="Consider adding `android:layout_marginStart=&quot;?listPreferredItemPaddingLeft&quot;` to better support right-to-left layouts"
+        errorLine1="    &lt;RelativeLayout android:layout_gravity=&quot;center_vertical&quot; android:duplicateParentState=&quot;true&quot; android:layout_width=&quot;0.0dip&quot; android:layout_height=&quot;wrap_content&quot; android:layout_marginLeft=&quot;?listPreferredItemPaddingLeft&quot; android:layout_marginRight=&quot;?listPreferredItemPaddingRight&quot; android:layout_weight=&quot;1.0&quot;>"
+        errorLine2="                                                                                                                                                                    ~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="res/layout/abc_list_menu_item_layout.xml"
+            line="4"
+            column="165"/>
+    </issue>
+
+    <issue
+        id="RtlHardcoded"
+        message="Consider adding `android:layout_alignParentStart=&quot;true&quot;` to better support right-to-left layouts"
+        errorLine1="        &lt;TextView android:textAppearance=&quot;?textAppearanceListItemSmall&quot; android:ellipsize=&quot;marquee&quot; android:id=&quot;@id/title&quot; android:fadingEdge=&quot;horizontal&quot; android:duplicateParentState=&quot;true&quot; android:layout_width=&quot;fill_parent&quot; android:layout_height=&quot;wrap_content&quot; android:singleLine=&quot;true&quot; android:layout_alignParentLeft=&quot;true&quot; android:layout_alignParentTop=&quot;true&quot; />"
+        errorLine2="                                                                                                                                                                                                                                                                                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="res/layout/abc_list_menu_item_layout.xml"
+            line="5"
+            column="290"/>
+    </issue>
+
+    <issue
+        id="RtlHardcoded"
+        message="Consider adding `android:layout_alignParentStart=&quot;true&quot;` to better support right-to-left layouts"
+        errorLine1="        &lt;TextView android:textAppearance=&quot;?android:textAppearanceSmall&quot; android:id=&quot;@id/shortcut&quot; android:duplicateParentState=&quot;true&quot; android:layout_width=&quot;wrap_content&quot; android:layout_height=&quot;wrap_content&quot; android:singleLine=&quot;true&quot; android:layout_below=&quot;@id/title&quot; android:layout_alignParentLeft=&quot;true&quot; />"
+        errorLine2="                                                                                                                                                                                                                                                                          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="res/layout/abc_list_menu_item_layout.xml"
+            line="6"
+            column="267"/>
+    </issue>
+
+    <issue
+        id="RtlHardcoded"
+        message="Consider adding `android:paddingEnd=&quot;@dimen/abc_dropdownitem_text_padding_right&quot;` to better support right-to-left layouts"
+        errorLine1="            &lt;view android:ellipsize=&quot;end&quot; android:layout_gravity=&quot;center_vertical&quot; android:id=&quot;@id/search_src_text&quot; android:background=&quot;@null&quot; android:paddingLeft=&quot;@dimen/abc_dropdownitem_text_padding_left&quot; android:paddingRight=&quot;@dimen/abc_dropdownitem_text_padding_right&quot; android:layout_width=&quot;0.0dip&quot; android:layout_height=&quot;36.0dip&quot; android:singleLine=&quot;true&quot; android:layout_weight=&quot;1.0&quot; android:inputType=&quot;textAutoComplete|textNoSuggestions&quot; android:dropDownAnchor=&quot;@id/search_edit_frame&quot; android:imeOptions=&quot;actionSearch&quot; android:dropDownHeight=&quot;wrap_content&quot; android:dropDownHorizontalOffset=&quot;0.0dip&quot; android:dropDownVerticalOffset=&quot;0.0dip&quot; class=&quot;androidx.appcompat.widget.SearchView$SearchAutoComplete&quot; />"
+        errorLine2="                                                                                                                                                                                                               ~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="res/layout/abc_search_view.xml"
+            line="9"
+            column="208"/>
+    </issue>
+
+    <issue
+        id="RtlHardcoded"
+        message="Consider adding `android:paddingStart=&quot;@dimen/abc_dropdownitem_text_padding_left&quot;` to better support right-to-left layouts"
+        errorLine1="            &lt;view android:ellipsize=&quot;end&quot; android:layout_gravity=&quot;center_vertical&quot; android:id=&quot;@id/search_src_text&quot; android:background=&quot;@null&quot; android:paddingLeft=&quot;@dimen/abc_dropdownitem_text_padding_left&quot; android:paddingRight=&quot;@dimen/abc_dropdownitem_text_padding_right&quot; android:layout_width=&quot;0.0dip&quot; android:layout_height=&quot;36.0dip&quot; android:singleLine=&quot;true&quot; android:layout_weight=&quot;1.0&quot; android:inputType=&quot;textAutoComplete|textNoSuggestions&quot; android:dropDownAnchor=&quot;@id/search_edit_frame&quot; android:imeOptions=&quot;actionSearch&quot; android:dropDownHeight=&quot;wrap_content&quot; android:dropDownHorizontalOffset=&quot;0.0dip&quot; android:dropDownVerticalOffset=&quot;0.0dip&quot; class=&quot;androidx.appcompat.widget.SearchView$SearchAutoComplete&quot; />"
+        errorLine2="                                                                                                                                               ~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="res/layout/abc_search_view.xml"
+            line="9"
+            column="144"/>
+    </issue>
+
+    <issue
+        id="RtlHardcoded"
+        message="Consider adding `android:layout_marginEnd=&quot;5.0dip&quot;` to better support right-to-left layouts"
+        errorLine1="    &lt;Button android:id=&quot;@id/dialog_button&quot; android:layout_width=&quot;100.0px&quot; android:layout_height=&quot;wrap_content&quot; android:layout_marginTop=&quot;5.0dip&quot; android:layout_marginRight=&quot;5.0dip&quot; android:text=&quot; Ok &quot; />"
+        errorLine2="                                                                                                                                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="res/layout/custom_dialog.xml"
+            line="4"
+            column="146"/>
+    </issue>
+
+    <issue
+        id="RtlHardcoded"
+        message="Consider adding `android:paddingEnd=&quot;?listPreferredItemPaddingRight&quot;` to better support right-to-left layouts"
+        errorLine1="&lt;com.google.android.material.internal.NavigationMenuItemView android:paddingLeft=&quot;?listPreferredItemPaddingLeft&quot; android:paddingRight=&quot;?listPreferredItemPaddingRight&quot; android:focusable=&quot;true&quot; android:layout_width=&quot;fill_parent&quot; android:layout_height=&quot;wrap_content&quot; android:foreground=&quot;?selectableItemBackground&quot; android:minHeight=&quot;?listPreferredItemHeightSmall&quot; android:defaultFocusHighlightEnabled=&quot;false&quot;"
+        errorLine2="                                                                                                                 ~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="res/layout/design_navigation_item.xml"
+            line="2"
+            column="114"/>
+    </issue>
+
+    <issue
+        id="RtlHardcoded"
+        message="Consider adding `android:paddingStart=&quot;?listPreferredItemPaddingLeft&quot;` to better support right-to-left layouts"
+        errorLine1="&lt;com.google.android.material.internal.NavigationMenuItemView android:paddingLeft=&quot;?listPreferredItemPaddingLeft&quot; android:paddingRight=&quot;?listPreferredItemPaddingRight&quot; android:focusable=&quot;true&quot; android:layout_width=&quot;fill_parent&quot; android:layout_height=&quot;wrap_content&quot; android:foreground=&quot;?selectableItemBackground&quot; android:minHeight=&quot;?listPreferredItemHeightSmall&quot; android:defaultFocusHighlightEnabled=&quot;false&quot;"
+        errorLine2="                                                             ~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="res/layout/design_navigation_item.xml"
+            line="2"
+            column="62"/>
+    </issue>
+
+    <issue
+        id="RtlHardcoded"
+        message="Consider adding `android:paddingEnd=&quot;?listPreferredItemPaddingRight&quot;` to better support right-to-left layouts"
+        errorLine1="&lt;TextView android:textAppearance=&quot;@style/TextAppearance.AppCompat.Body2&quot; android:textColor=&quot;?android:textColorSecondary&quot; android:gravity=&quot;start|center&quot; android:paddingLeft=&quot;?listPreferredItemPaddingLeft&quot; android:paddingRight=&quot;?listPreferredItemPaddingRight&quot; android:layout_width=&quot;fill_parent&quot; android:layout_height=&quot;?listPreferredItemHeightSmall&quot; android:maxLines=&quot;1&quot;"
+        errorLine2="                                                                                                                                                                                                            ~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="res/layout/design_navigation_item_subheader.xml"
+            line="2"
+            column="205"/>
+    </issue>
+
+    <issue
+        id="RtlHardcoded"
+        message="Consider adding `android:paddingStart=&quot;?listPreferredItemPaddingLeft&quot;` to better support right-to-left layouts"
+        errorLine1="&lt;TextView android:textAppearance=&quot;@style/TextAppearance.AppCompat.Body2&quot; android:textColor=&quot;?android:textColorSecondary&quot; android:gravity=&quot;start|center&quot; android:paddingLeft=&quot;?listPreferredItemPaddingLeft&quot; android:paddingRight=&quot;?listPreferredItemPaddingRight&quot; android:layout_width=&quot;fill_parent&quot; android:layout_height=&quot;?listPreferredItemHeightSmall&quot; android:maxLines=&quot;1&quot;"
+        errorLine2="                                                                                                                                                        ~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="res/layout/design_navigation_item_subheader.xml"
+            line="2"
+            column="153"/>
+    </issue>
+
+    <issue
+        id="RtlHardcoded"
+        message="Consider adding `android:paddingEnd=&quot;?listPreferredItemPaddingRight&quot;` to better support right-to-left layouts"
+        errorLine1="&lt;TextView android:ellipsize=&quot;marquee&quot; android:gravity=&quot;center_vertical&quot; android:id=&quot;@android:id/text1&quot; android:paddingLeft=&quot;?listPreferredItemPaddingLeft&quot; android:paddingRight=&quot;?listPreferredItemPaddingRight&quot; android:layout_width=&quot;fill_parent&quot; android:layout_height=&quot;wrap_content&quot; android:minHeight=&quot;?listPreferredItemHeightSmall&quot; style=&quot;?materialAlertDialogBodyTextStyle&quot;"
+        errorLine2="                                                                                                                                                           ~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="res/layout/mtrl_alert_select_dialog_item.xml"
+            line="2"
+            column="156"/>
+    </issue>
+
+    <issue
+        id="RtlHardcoded"
+        message="Consider adding `android:paddingStart=&quot;?listPreferredItemPaddingLeft&quot;` to better support right-to-left layouts"
+        errorLine1="&lt;TextView android:ellipsize=&quot;marquee&quot; android:gravity=&quot;center_vertical&quot; android:id=&quot;@android:id/text1&quot; android:paddingLeft=&quot;?listPreferredItemPaddingLeft&quot; android:paddingRight=&quot;?listPreferredItemPaddingRight&quot; android:layout_width=&quot;fill_parent&quot; android:layout_height=&quot;wrap_content&quot; android:minHeight=&quot;?listPreferredItemHeightSmall&quot; style=&quot;?materialAlertDialogBodyTextStyle&quot;"
+        errorLine2="                                                                                                       ~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="res/layout/mtrl_alert_select_dialog_item.xml"
+            line="2"
+            column="104"/>
+    </issue>
+
+    <issue
+        id="RtlHardcoded"
+        message="Consider adding `android:paddingEnd=&quot;?listPreferredItemPaddingRight&quot;` to better support right-to-left layouts"
+        errorLine1="&lt;TextView android:textAppearance=&quot;?textAppearanceListItemSmall&quot; android:textColor=&quot;?textColorAlertDialogListItem&quot; android:ellipsize=&quot;marquee&quot; android:gravity=&quot;center_vertical&quot; android:id=&quot;@android:id/text1&quot; android:paddingLeft=&quot;?listPreferredItemPaddingLeft&quot; android:paddingRight=&quot;?listPreferredItemPaddingRight&quot; android:layout_width=&quot;fill_parent&quot; android:layout_height=&quot;wrap_content&quot; android:minHeight=&quot;?listPreferredItemHeightSmall&quot;"
+        errorLine2="                                                                                                                                                                                                                                                                   ~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="res/layout/select_dialog_item_material.xml"
+            line="2"
+            column="260"/>
+    </issue>
+
+    <issue
+        id="RtlHardcoded"
+        message="Consider adding `android:paddingStart=&quot;?listPreferredItemPaddingLeft&quot;` to better support right-to-left layouts"
+        errorLine1="&lt;TextView android:textAppearance=&quot;?textAppearanceListItemSmall&quot; android:textColor=&quot;?textColorAlertDialogListItem&quot; android:ellipsize=&quot;marquee&quot; android:gravity=&quot;center_vertical&quot; android:id=&quot;@android:id/text1&quot; android:paddingLeft=&quot;?listPreferredItemPaddingLeft&quot; android:paddingRight=&quot;?listPreferredItemPaddingRight&quot; android:layout_width=&quot;fill_parent&quot; android:layout_height=&quot;wrap_content&quot; android:minHeight=&quot;?listPreferredItemHeightSmall&quot;"
+        errorLine2="                                                                                                                                                                                                               ~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="res/layout/select_dialog_item_material.xml"
+            line="2"
+            column="208"/>
+    </issue>
+
+    <issue
+        id="RtlEnabled"
+        message="You must set `android:targetSdkVersion` to at least 17 when enabling RTL support"
+        errorLine1="    &lt;application android:allowBackup=&quot;true&quot; android:appComponentFactory=&quot;androidx.core.app.CoreComponentFactory&quot; android:dataExtractionRules=&quot;@xml/data_extraction_rules&quot; android:extractNativeLibs=&quot;false&quot; android:fullBackupContent=&quot;@xml/backup_rules&quot; android:icon=&quot;@mipmap/ic_launcher&quot; android:label=&quot;@string/app_name&quot; android:roundIcon=&quot;@mipmap/ic_launcher_round&quot; android:supportsRtl=&quot;true&quot; android:theme=&quot;@style/Theme.Encryptor&quot;>"
+        errorLine2="                                                                                                                                                                                                                                                                                                                                                                                                 ~~~~">
+        <location
+            file="AndroidManifest.xml"
+            line="4"
+            column="386"/>
+    </issue>
+
+</issues>

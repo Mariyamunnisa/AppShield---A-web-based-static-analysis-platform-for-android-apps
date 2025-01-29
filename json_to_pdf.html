@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generate PDF Report from JSON Data</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.2/html2pdf.bundle.min.js"></script>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+        h1 {
+            color: #333;
+            text-align: center;
+            padding: 20px;
+        }
+        h2, h3 {
+            margin-top: 20px;
+            padding: 10px;
+            background-color: #f2f2f2;
+            color: #333;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+        input[type="file"], button {
+            background-color: #007bff;
+            border: none;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+            display: inline-block;
+            font-size: 14px;
+            margin: 10px 5px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        button:hover, input[type="file"]:hover {
+            background-color: #0056b3;
+        }
+        #output {
+            margin: 20px;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        table, th, td {
+            border: 1px solid #ddd;
+            word-wrap: break-word;
+        }
+        th, td {
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f4f4f4;
+            font-weight: bold;
+        }
+        p {
+            font-size: 14px;
+            margin-top: 10px;
+            line-height: 1.6;
+        }
+        .section-content {
+            margin-bottom: 20px;
+        }
+	/* Code Analysis Table Styles */
+.code-analysis-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.code-analysis-table th, .code-analysis-table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+    vertical-align: top;
+}
+
+.code-analysis-table th {
+    background-color: #f5f5f5;
+    font-weight: bold;
+}
+
+.code-analysis-table tr:nth-child(even) {
+    background-color: #fbfbfb;
+}
+
+.code-analysis-table tr:hover {
+    background-color: #f1f1f1;
+}
+
+.code-analysis-table a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.code-analysis-table a:hover {
+    text-decoration: underline;
+}
+
+.code-analysis-table tbody td {
+    word-break: break-word;
+}
+
+/* Styling for the Certificate Analysis Section */
+.certificate-analysis-container {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px 0;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Header Section Styling */
+.certificate-analysis-header {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #2c3e50;
+    border-bottom: 2px solid #007bff;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+    color: #007BFF;
+}
+
+
+
+
+
+    </style>
+</head>
+<body>
+
+    <h1>Generate PDF Report from JSON Data</h1>
+    
+    <input type="file" id="jsonFile" accept=".json">
+    <button id="convertBtn">Convert to HTML</button>
+    <button id="downloadPdfBtn">Download as PDF</button>
+    
+    <div id="output"></div>
+
+    <script>
+        let htmlContent = '';
+
+	  const appInfo = {
+            "version": "v4.0.7",
+            "title": "Static Analysis",
+            "file_name": "encryptor.apk",
+            "app_name": "encryptor",
+            "app_type": "apk",
+            "size": "4.39MB",
+            "md5": "83c7d4def6410f6c1b5f1ad38442d51d",
+            "sha1": "b4287322161712ff5491b1a677ea5348153df3fa",
+            "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        };
+
+
+        document.getElementById('convertBtn').addEventListener('click', function() {
+            const fileInput = document.getElementById('jsonFile');
+            if (fileInput.files.length === 0) {
+                alert('Please select a JSON file.');
+                return;
+            }
+
+            const file = fileInput.files[0];
+            const reader = new FileReader();
+
+            reader.onload = function(e) {
+                try {
+                    const jsonData = JSON.parse(e.target.result);
+                    htmlContent = generateHTML(jsonData);
+                    document.getElementById('output').innerHTML = htmlContent;
+                } catch (error) {
+                    alert('Invalid JSON format.');
+                }
+            };
+
+            reader.readAsText(file);
+        });
+
+        function generateHTML(data) {
+            let html = '';
+
+
+
+
+           // App Information
+            html += '<h2>App Information</h2>';
+            html += '<div class="section-content">';
+            html += '<p><strong>App Name:</strong> ' + (data.app_name || 'N/A') + '</p>';
+            html += '<p><strong>File Name:</strong> ' + (data.file_name || 'N/A') + '</p>';
+            html += '<p><strong>Package Name:</strong> ' + (data.package_name || 'N/A') + '</p>';
+            html += '<p><strong>Main Activity:</strong> ' + (data.main_activity || 'N/A') + '</p>';
+            html += '<div class="section-content">';
+            html += '<p><strong>Version:</strong> ' + (appInfo.version || 'N/A') + '</p>';
+            html += '<p><strong>Title:</strong> ' + (appInfo.title || 'N/A') + '</p>';
+            html += '<p><strong>App Type:</strong> ' + (appInfo.app_type || 'N/A') + '</p>';
+            html += '<p><strong>Size:</strong> ' + (appInfo.size || 'N/A') + '</p>';
+            html += '<p><strong>MD5:</strong> ' + (appInfo.md5 || 'N/A') + '</p>';
+            html += '<p><strong>SHA-1:</strong> ' + (appInfo.sha1 || 'N/A') + '</p>';
+            html += '<p><strong>SHA-256:</strong> ' + (appInfo.sha256 || 'N/A') + '</p>';
+            html += '</div>';
+
+            html += '</div>';
+
+            // Findings Severity
+            html += '<h3>Findings Severity</h3>';
+            html += '<div class="section-content">';
+            html += '<table><tr><th>Severity</th><th>Description</th></tr>';
+            Object.keys(data.findings_severity || {}).forEach(severity => {
+                html += '<tr><td>' + severity + '</td><td>' + data.findings_severity[severity] + '</td></tr>';
+            });
+            html += '</table></div>';
+
+            // File Information
+            html += '<h3>File Information</h3>';
+            html += '<div class="section-content">';
+            html += '<p>' + JSON.stringify(data.file_information || 'No file information found') + '</p>';
+            html += '</div>';
+
+            // App Components
+            html += '<h3>App Components</h3>';
+            html += '<div class="section-content">';
+            html += '<p>' + JSON.stringify(data.app_components || 'No app components found') + '</p>';
+            html += '</div>';
+
+            // Certificate Information
+            html += '<h3>Certificate Information</h3>';
+            html += '<div class="section-content">';
+            html += '<p>' + (data.certificate_analysis?.certificate_info?.replace(/\n/g, '<br>') || 'No certificate information found') + '</p>';
+            html += '</div>';
+
+            // Application Permissions
+            html += '<h3>Application Permissions</h3>';
+            html += '<div class="section-content">';
+            html += '<p>' + JSON.stringify(data.application_permissions || 'No application permissions') + '</p>';
+            html += '</div>';
+
+            // APKID Analysis
+            html += '<h3>APKID Analysis</h3>';
+            html += '<div class="section-content">';
+            html += '<p>' + JSON.stringify(data.apkid_analysis || 'No APKID analysis found') + '</p>';
+            html += '</div>';
+
+            // Network Security
+            html += '<h3>Network Security</h3>';
+            html += '<div class="section-content">';
+            html += '<p>' + JSON.stringify(data.network_security || 'No network security information found') + '</p>';
+            html += '</div>';
+
+            // Certificate Analysis
+            //html += '<h3>Certificate Analysis</h3>';
+            //html += '<div class="section-content">';
+            //html += '<p>' + JSON.stringify(data.certificate_analysis || 'No certificate analysis found') + '</p>';
+            html += '</div>';
+
+            // Manifest Analysis
+            html += '<h3>Manifest Analysis</h3>';
+            html += '<div class="section-content">';
+            html += '<table><tr><th>Rule</th><th>Title</th><th>Severity</th><th>Description</th></tr>';
+            (data.manifest_analysis?.manifest_findings || []).forEach(finding => {
+                html += '<tr><td>' + finding.rule + '</td><td>' + finding.title + '</td><td>' + finding.severity + '</td><td>' + finding.description + '</td></tr>';
+            });
+            html += '</table></div>';
+
+            // Code Analysis
+           // html += '<h3>Code Analysis</h3>';
+           // html += '<div class="section-content">';
+           // html += '<p><strong>Base64 Encode:</strong> ' + JSON.stringify(data.android_api?.api_base64_encode?.files || 'No code analysis found') + '</p>';
+           // html += '<p><strong>Base64 Decode:</strong> ' + JSON.stringify(data.android_api?.api_base64_decode?.files || 'No code analysis found') + '</p>';
+           // html += '</div>'; 
+
+
+
+  
+
+    // Code Analysis Table
+    html += '<h3>Code Analysis</h3>';
+    html += '<table class="code-analysis-table">';
+    html += '<thead>';
+    html += '<tr>';
+    html += '<th style="width: 5%;">No</th>';
+    html += '<th style="width: 25%;">Issue</th>';
+    html += '<th style="width: 10%;">Severity</th>';
+    html += '<th style="width: 20%;">Standards</th>';
+    html += '<th style="width: 40%;">Files</th>';
+    html += '</tr>';
+    html += '</thead>';
+    html += '<tbody>';
+
+    if (Object.keys(data.code_analysis?.findings || {}).length === 0) {
+        html += '<tr><td colspan="5">No code analysis findings found.</td></tr>';
+    } else {
+        let counter = 1;
+        Object.keys(data.code_analysis.findings).forEach(key => {
+            const finding = data.code_analysis.findings[key];
+            html += '<tr>';
+            html += '<td>' + counter + '</td>'; // No
+
+            // Issue (Hyperlinked)
+            html += '<td><a href="#">' + (finding.issue || key) + '</a></td>';
+
+            // Severity
+            html += '<td>' + (finding.severity || 'Info') + '</td>';
+
+            // Standards
+            html += '<td>' + (finding.standards || 'N/A') + '</td>';
+
+            // Files
+            if (finding.files && finding.files.length > 0) {
+                html += '<td>' + finding.files.join('<br>') + '</td>';
+            } else {
+                html += '<td>No files found</td>';
+            }
+            html += '</tr>';
+            counter++;
+        });
+    }
+
+    html += '</tbody>';
+    html += '</table>';
+
+
+
+
+
+   
+
+
+
+    // NIAP Analysis
+    html += '<h3>NIAP Analysis</h3>';
+    html += '<div class="section-content">';
+    html += '<p>' + JSON.stringify(data.niap_analysis || 'No NIAP analysis found') + '</p>';
+    html += '</div>';
+
+    // Permission Mapping
+    html += '<h3>Permission Mapping</h3>';
+    html += '<div class="section-content">';
+    html += '<p>' + JSON.stringify(data.permission_mapping || 'No permission mapping found') + '</p>';
+    html += '</div>';
+
+    // URLs
+    html += '<h3>Extracted URLs</h3>';
+    html += '<div class="section-content">';
+    if (data.urls.length === 0) {
+        html += '<p>No URLs found.</p>';
+    } else {
+        data.urls.forEach(url => {
+            html += '<p>' + url + '</p>';
+        });
+    }
+    html += '</div>';
+
+    // Domains
+    html += '<h3>Extracted Domains</h3>';
+    html += '<div class="section-content">';
+    if (Object.keys(data.domains || {}).length === 0) {
+        html += '<p>No domains found.</p>';
+    } else {
+        Object.keys(data.domains).forEach(domain => {
+            html += '<p><strong>' + domain + ':</strong> ' + data.domains[domain] + '</p>';
+        });
+    }
+    html += '</div>';
+
+    // Emails
+    html += '<h3>Extracted Emails</h3>';
+    html += '<div class="section-content">';
+    if (data.emails.length === 0) {
+        html += '<p>No emails found.</p>';
+    } else {
+        data.emails.forEach(email => {
+            html += '<p>' + email + '</p>';
+        });
+    }
+html += '</div>';
+
+            // Shared Library Binary Analysis
+            html += '<h3>Shared Library Binary Analysis</h3>';
+            html += '<div class="section-content">';
+            html += '<p>' + JSON.stringify(data.shared_library_binary_analysis || 'No shared library binary analysis found') + '</p>';
+            html += '</div>';
+
+            // NIAP Analysis
+            html += '<h3>NIAP Analysis</h3>';
+            html += '<div class="section-content">';
+            html += '<p>' + JSON.stringify(data.niap_analysis || 'No NIAP analysis found') + '</p>';
+            html += '</div>';
+
+            // Abused Permissions
+            html += '<h3>Abused Permissions</h3>';
+            html += '<div class="section-content">';
+            html += '<p>' + JSON.stringify(data.abused_permissions || 'No abused permissions found') + '</p>';
+            html += '</div>';
+
+            // OFAC Sanctioned Countries
+            html += '<h3>OFAC Sanctioned Countries</h3>';
+            html += '<div class="section-content">';
+            html += '<p>' + JSON.stringify(data.ofac_sanctioned_countries || 'No OFAC sanctioned countries information found') + '</p>';
+            html += '</div>';
+
+            // Domain Malware Check
+            html += '<h3>Domain Malware Check</h3>';
+            html += '<div class="section-content">';
+            html += '<p>' + JSON.stringify(data.domain_malware_check || 'No domain malware check found') + '</p>';
+            html += '</div>';
+
+            // Emails
+            html += '<h3>Emails</h3>';
+            html += '<div class="section-content">';
+            html += '<p>' + JSON.stringify(data.emails || 'No emails found') + '</p>';
+            html += '</div>';
+
+            // Hardcoded Secrets
+            html += '<h3>Hardcoded Secrets</h3>';
+            html += '<div class="section-content">';
+            html += '<p>' + JSON.stringify(data.hardcoded_secrets || 'No hardcoded secrets found') + '</p>';
+            html += '</div>';
+
+
+    
+    
+    // Exported Count
+    html += '<h3>Exported Count</h3>';
+    html += '<div class="section-content">';
+    html += '<p><strong>Exported Activities:</strong> ' + (data.exported_count?.exported_activities || 0) + '</p>';
+    html += '<p><strong>Exported Services:</strong> ' + (data.exported_count?.exported_services || 0) + '</p>';
+    html += '<p><strong>Exported Receivers:</strong> ' + (data.exported_count?.exported_receivers || 0) + '</p>';
+    html += '<p><strong>Exported Providers:</strong> ' + (data.exported_count?.exported_providers || 0) + '</p>';
+    html += '</div>';
+
+    // APKiD
+    html += '<h3>APKiD Analysis</h3>';
+    html += '<div class="section-content">';
+    html += '<p><strong>Anti VM:</strong> ' + (data.apkid?.["classes.dex"]?.anti_vm?.join(", ") || 'None') + '</p>';
+    html += '<p><strong>Compiler:</strong> ' + (data.apkid?.["classes.dex"]?.compiler?.join(", ") || 'None') + '</p>';
+    html += '</div>';
+
+    // Trackers
+    html += '<h3>Trackers</h3>';
+    html += '<div class="section-content">';
+    html += '<p><strong>Detected Trackers:</strong> ' + (data.trackers?.detected_trackers || 0) + '</p>';
+    html += '<p><strong>Total Trackers:</strong> ' + (data.trackers?.total_trackers || 0) + '</p>';
+    html += '</div>';
+
+    // Logs
+   // html += '<h3>Logs</h3>';
+   // html += '<div class="section-content">';
+   // data.logs?.forEach(log => {
+       // html += '<p><strong>Timestamp:</strong> ' + log.timestamp + '</p>';
+       // html += '<p><strong>Status:</strong> ' + log.status + '</p>';
+       // html += '<p><strong>Exception:</strong> ' + (log.exception || 'None') + '</p><hr>';
+    //});
+    //html += '</div>';
+
+    // AppSec
+    html += '<h3>AppSec Findings</h3>';
+    html += '<div class="section-content">';
+
+    // High
+    html += '<h4>High Severity</h4>';
+    data.appsec?.high?.forEach(finding => {
+        html += '<p><strong>Title:</strong> ' + finding.title + '</p>';
+        html += '<p><strong>Description:</strong> ' + finding.description + '</p><hr>';
+    });
+
+    // Warning
+    html += '<h4>Warning Severity</h4>';
+    data.appsec?.warning?.forEach(finding => {
+        html += '<p><strong>Title:</strong> ' + finding.title + '</p>';
+        html += '<p><strong>Description:</strong> ' + finding.description + '</p><hr>';
+    });
+
+    // Secure
+    html += '<h4>Secure Findings</h4>';
+    data.appsec?.secure?.forEach(finding => {
+        html += '<p><strong>Title:</strong> ' + finding.title + '</p>';
+        html += '<p><strong>Description:</strong> ' + finding.description + '</p><hr>';
+    });
+    html += '</div>';
+
+    return html;
+}
+
+	    
+        document.getElementById('downloadPdfBtn').addEventListener('click', function() {
+            if (!htmlContent) {
+                alert('Please generate the HTML first.');
+                return;
+            }
+
+            const element = document.getElementById('output');
+            const options = {
+                margin: 0.5,
+                filename: 'analysis-report.pdf',
+                image: { type: 'jpeg', quality: 0.98 },
+                html2canvas: { scale: 2 },
+                jsPDF: { unit: 'in', format: 'letter', orientation: 'portrait' },
+                pagebreak: { mode: ['avoid-all', 'css', 'legacy'] }
+            };
+
+            html2pdf().from(element).set(options).save();
+        });
+    </script>
+
+</body>
+</html>
